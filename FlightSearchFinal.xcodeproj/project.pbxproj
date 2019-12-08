@@ -149,7 +149,6 @@
 					};
 					E41D4F5D239D020A00D56787 = {
 						CreatedOnToolsVersion = 10.3;
-						TestTargetID = E41D4F49239D020600D56787;
 					};
 				};
 			};
@@ -396,7 +395,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LY3CG77MY2;
 				INFOPLIST_FILE = FlightSearchFinalTests/Info.plist;
@@ -409,7 +407,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightSearchFinal.app/FlightSearchFinal";
 			};
 			name = Debug;
 		};
@@ -417,7 +414,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LY3CG77MY2;
 				INFOPLIST_FILE = FlightSearchFinalTests/Info.plist;
@@ -430,7 +426,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlightSearchFinal.app/FlightSearchFinal";
 			};
 			name = Release;
 		};
