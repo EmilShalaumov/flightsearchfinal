@@ -1,0 +1,44 @@
+{
+    "Places": [
+        {
+            "PlaceId": "MOSC-sky",
+            "PlaceName": "Moscow",
+            "CountryId": "RU-sky",
+            "RegionId": "",
+            "CityId": "MOSC-sky",
+            "CountryName": "Россия"
+        },
+        {
+            "PlaceId": "SVO-sky",
+            "PlaceName": "Moscow Sheremetyevo",
+            "CountryId": "RU-sky",
+            "RegionId": "",
+            "CityId": "MOSC-sky",
+            "CountryName": "Россия"
+        },
+        {
+            "PlaceId": "VKO-sky",
+            "PlaceName": "Moscow Vnukovo",
+            "CountryId": "RU-sky",
+            "RegionId": "",
+            "CityId": "MOSC-sky",
+            "CountryName": "Россия"
+        },
+        {
+            "PlaceId": "DME-sky",
+            "PlaceName": "Moscow Domodedovo",
+            "CountryId": "RU-sky",
+            "RegionId": "",
+            "CityId": "MOSC-sky",
+            "CountryName": "Россия"
+        },
+        {
+            "PlaceId": "ZIA-sky",
+            "PlaceName": "Moscow Zhukovsky",
+            "CountryId": "RU-sky",
+            "RegionId": "",
+            "CityId": "MOSC-sky",
+            "CountryName": "Россия"
+        }
+    ]
+}

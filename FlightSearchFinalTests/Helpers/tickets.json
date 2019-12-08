@@ -1,0 +1,2890 @@
+{
+    "SessionKey": "27ef4791-41c8-4e25-ae58-e052c21bf8fe",
+    "Query": {
+        "Country": "RU",
+        "Currency": "RUB",
+        "Locale": "en-US",
+        "Adults": 1,
+        "Children": 0,
+        "Infants": 0,
+        "OriginPlace": "16626",
+        "DestinationPlace": "14567",
+        "OutboundDate": "2019-12-28",
+        "LocationSchema": "Default",
+        "CabinClass": "economy",
+        "GroupPricing": false
+    },
+    "Status": "UpdatesComplete",
+    "Itineraries": [
+        {
+            "OutboundLegId": "16626-1912280640--32741,-31035-1-14567-1912290350",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 14391.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c6177%7c16626%7c2019-12-28T06%3a40%7c13242%7c2019-12-28T09%3a00%7c140%7c-%7c-%7c-%3bflight%7c-31035%7c327%7c13242%7c2019-12-29T01%3a25%7c14567%7c2019-12-29T03%3a50%7c145%7c-%7c-%7c-%26carriers%3d-32741%2c-31035%26operators%3d-31929%3b-31035%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d14391.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c7176009913895911410%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912280640--32741,-31035-1-14567-1912290350&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912280725--32021,-31436-1-14567-1912291325",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 14837.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32021%7c167%7c16626%7c2019-12-28T07%3a25%7c13489%7c2019-12-28T09%3a00%7c95%7c-%7c-%7c-%3bflight%7c-31436%7c527%7c13489%7c2019-12-29T11%3a10%7c14567%7c2019-12-29T13%3a25%7c135%7c-%7c-%7c-%26carriers%3d-32021%2c-31436%26operators%3d-32021%3b-31436%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d14837.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c3633642065701414056%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912280725--32021,-31436-1-14567-1912291325&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912282245--32741-0-14567-1912290040",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        2499060
+                    ],
+                    "QuoteAgeInMinutes": 1,
+                    "Price": 8211.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fflot%2f1%2f16626.14567.2019-12-28%2fair%2fairli%2fflights%3fitinerary%3dflight%7c-32741%7c1250%7c16626%7c2019-12-28T22%3a45%7c14567%7c2019-12-29T00%3a40%7c115%7cQNOR%7cQ%7cEconomy+Lite%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d8211.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dflot.16626.14567.191228..1..E%7c-1506061264237877005%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T16%3a03%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        3513058
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 8211.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fottr%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1250%7c16626%7c2019-12-28T22%3a45%7c14567%7c2019-12-29T00%3a40%7c115%7c-%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d8211.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dottr.16626.14567.191228..1..E%7c5842470794676972571%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        3526638
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 8211.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fozon%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1250%7c16626%7c2019-12-28T22%3a45%7c14567%7c2019-12-29T00%3a40%7c115%7cQNOR%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d8211.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dozon.16626.14567.191228..1..E%7c-1158241795149092437%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        4045189
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 8211.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2ftkru%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1250%7c16626%7c2019-12-28T22%3a45%7c14567%7c2019-12-29T00%3a40%7c115%7c-%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d8211.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dtkru.16626.14567.191228..1..E%7c5842470794676972571%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 8211.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1250%7c16626%7c2019-12-28T22%3a45%7c14567%7c2019-12-29T00%3a40%7c115%7c-%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d8211.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c5842470794676972571%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        2185861
+                    ],
+                    "QuoteAgeInMinutes": 1,
+                    "Price": 8219.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fctru%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1250%7c16626%7c2019-12-28T22%3a45%7c14567%7c2019-12-29T00%3a40%7c115%7c-%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d8219.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dctru.5227.14567.191228..1..E%7c5842470794676972571%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T16%3a03%3a00%26pqid%3dtrue"
+                },
+                {
+                    "Agents": [
+                        1943123
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 8438.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fakas%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1250%7c16626%7c2019-12-28T22%3a45%7c14567%7c2019-12-29T00%3a40%7c115%7c-%7cQNOR%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d8438.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dakas.16626.14567.191228..1..E%7c-1158241795149092437%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        4035973
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 8856.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2ftgru%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1250%7c16626%7c2019-12-28T22%3a45%7c14567%7c2019-12-29T00%3a40%7c115%7c-%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d8856.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dtgru.16626.14567.191228..1..E%7c5842470794676972571%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        3934928
+                    ],
+                    "QuoteAgeInMinutes": 1,
+                    "Price": 9026.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fskyp%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1250%7c16626%7c2019-12-28T22%3a45%7c14567%7c2019-12-29T00%3a40%7c115%7cQNOR%7cQ%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d9026.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dskyp.16626.14567.191228..1..E%7c205834056626229438%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T16%3a03%3a00%26pqid%3dtrue"
+                },
+                {
+                    "Agents": [
+                        3957637
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 9075.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fsuru%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1250%7c16626%7c2019-12-28T22%3a45%7c14567%7c2019-12-29T00%3a40%7c115%7c-%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d9075.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dsuru.16626.14567.191228..1..E%7c5842470794676972571%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912282245--32741-0-14567-1912290040&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912281540--32741,-32203,-31436-2-14567-1912291325",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 25863.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1192%7c16626%7c2019-12-28T15%3a40%7c13390%7c2019-12-28T17%3a20%7c100%7c-%7c-%7c-%3bflight%7c-32203%7c336%7c13390%7c2019-12-28T21%3a40%7c13489%7c2019-12-28T23%3a40%7c120%7c-%7c-%7c-%3bflight%7c-31436%7c527%7c13489%7c2019-12-29T11%3a10%7c14567%7c2019-12-29T13%3a25%7c135%7c-%7c-%7c-%26carriers%3d-32741%2c-32203%2c-31436%26operators%3d-32741%3b-32203%3b-31436%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d25863.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c6398142949561550050%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912281540--32741,-32203,-31436-2-14567-1912291325&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912281500--32741-0-14567-1912281650",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        2499060
+                    ],
+                    "QuoteAgeInMinutes": 1,
+                    "Price": 10661.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fflot%2f1%2f16626.14567.2019-12-28%2fair%2fairli%2fflights%3fitinerary%3dflight%7c-32741%7c1252%7c16626%7c2019-12-28T15%3a00%7c14567%7c2019-12-28T16%3a50%7c110%7cHNOR%7cH%7cEconomy+Lite%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d10661.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dflot.16626.14567.191228..1..E%7c-5089024399905777568%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T16%3a03%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        3526638
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 10661.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fozon%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1252%7c16626%7c2019-12-28T15%3a00%7c14567%7c2019-12-28T16%3a50%7c110%7cHNOR%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d10661.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dozon.16626.14567.191228..1..E%7c-302177742812420935%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        4045189
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 10661.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2ftkru%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1252%7c16626%7c2019-12-28T15%3a00%7c14567%7c2019-12-28T16%3a50%7c110%7c-%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d10661.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dtkru.16626.14567.191228..1..E%7c6779697852476590116%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 10661.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1252%7c16626%7c2019-12-28T15%3a00%7c14567%7c2019-12-28T16%3a50%7c110%7c-%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d10661.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c6779697852476590116%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        3513058
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 10687.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fottr%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1252%7c16626%7c2019-12-28T15%3a00%7c14567%7c2019-12-28T16%3a50%7c110%7c-%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d10687.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dottr.16626.14567.191228..1..E%7c6779697852476590116%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        2185861
+                    ],
+                    "QuoteAgeInMinutes": 1,
+                    "Price": 10711.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fctru%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1252%7c16626%7c2019-12-28T15%3a00%7c14567%7c2019-12-28T16%3a50%7c110%7c-%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d10711.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dctru.5227.14567.191228..1..E%7c6779697852476590116%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T16%3a03%3a00%26pqid%3dtrue"
+                },
+                {
+                    "Agents": [
+                        1943123
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 10985.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fakas%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1252%7c16626%7c2019-12-28T15%3a00%7c14567%7c2019-12-28T16%3a50%7c110%7c-%7cHNOR%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d10985.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dakas.16626.14567.191228..1..E%7c-302177742812420935%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        4035973
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 11306.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2ftgru%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1252%7c16626%7c2019-12-28T15%3a00%7c14567%7c2019-12-28T16%3a50%7c110%7c-%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d11306.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dtgru.16626.14567.191228..1..E%7c6779697852476590116%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        3957637
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 11522.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fsuru%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1252%7c16626%7c2019-12-28T15%3a00%7c14567%7c2019-12-28T16%3a50%7c110%7c-%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d11522.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dsuru.16626.14567.191228..1..E%7c6779697852476590116%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        3934928
+                    ],
+                    "QuoteAgeInMinutes": 1,
+                    "Price": 11559.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fskyp%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1252%7c16626%7c2019-12-28T15%3a00%7c14567%7c2019-12-28T16%3a50%7c110%7cHNOR%7cH%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d11559.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dskyp.16626.14567.191228..1..E%7c731075170344557865%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T16%3a03%3a00%26pqid%3dtrue"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912281500--32741-0-14567-1912281650&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912280925--32021,-31717,-31035-3-14567-1912290350",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 28743.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32021%7c177%7c16626%7c2019-12-28T09%3a25%7c13489%7c2019-12-28T10%3a50%7c85%7c-%7c-%7c-%3bflight%7c-32021%7c139%7c13489%7c2019-12-28T12%3a00%7c9285%7c2019-12-28T15%3a10%7c190%7c-%7c-%7c-%3bflight%7c-31717%7c378%7c9285%7c2019-12-28T20%3a25%7c13242%7c2019-12-28T21%3a20%7c55%7c-%7c-%7c-%3bflight%7c-31035%7c327%7c13242%7c2019-12-29T01%3a25%7c14567%7c2019-12-29T03%3a50%7c145%7c-%7c-%7c-%26carriers%3d-32021%2c-31717%2c-31035%26operators%3d-32021%3b-32021%3b-31717%3b-31035%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d28743.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c8462014396088885338%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912280925--32021,-31717,-31035-3-14567-1912290350&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912280620--32741,-31436-1-14567-1912281335",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 21219.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1138%7c16626%7c2019-12-28T06%3a20%7c9285%7c2019-12-28T08%3a55%7c155%7c-%7c-%7c-%3bflight%7c-31436%7c353%7c9285%7c2019-12-28T11%3a15%7c14567%7c2019-12-28T13%3a35%7c140%7c-%7c-%7c-%26carriers%3d-32741%2c-31436%26operators%3d-32741%3b-31436%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d21219.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c7639611647471226115%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912280620--32741,-31436-1-14567-1912281335&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912282345--32741,-31436-2-14567-1912291325",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 26323.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1196%7c16626%7c2019-12-28T23%3a45%7c13390%7c2019-12-29T01%3a25%7c100%7c-%7c-%7c-%3bflight%7c-32741%7c6596%7c13390%7c2019-12-29T05%3a00%7c13489%7c2019-12-29T07%3a10%7c130%7c-%7c-%7c-%3bflight%7c-31436%7c527%7c13489%7c2019-12-29T11%3a10%7c14567%7c2019-12-29T13%3a25%7c135%7c-%7c-%7c-%26carriers%3d-32741%2c-31436%26operators%3d-32741%3b-31929%3b-31436%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d26323.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c-1093281868591491603%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912282345--32741,-31436-2-14567-1912291325&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912282350--32021,-31436-1-14567-1912291325",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 15671.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32021%7c197%7c16626%7c2019-12-28T23%3a50%7c13489%7c2019-12-29T01%3a15%7c85%7c-%7c-%7c-%3bflight%7c-31436%7c527%7c13489%7c2019-12-29T11%3a10%7c14567%7c2019-12-29T13%3a25%7c135%7c-%7c-%7c-%26carriers%3d-32021%2c-31436%26operators%3d-32021%3b-31436%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d15671.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c9059501655165809738%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912282350--32021,-31436-1-14567-1912291325&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912281350--32741,-31035-2-14567-1912290350",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 34753.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c38%7c16626%7c2019-12-28T13%3a50%7c13489%7c2019-12-28T15%3a20%7c90%7c-%7c-%7c-%3bflight%7c-32741%7c6313%7c13489%7c2019-12-28T16%3a35%7c13242%7c2019-12-28T19%3a30%7c175%7c-%7c-%7c-%3bflight%7c-31035%7c327%7c13242%7c2019-12-29T01%3a25%7c14567%7c2019-12-29T03%3a50%7c145%7c-%7c-%7c-%26carriers%3d-32741%2c-31035%26operators%3d-32741%3b-31929%3b-31035%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d34753.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c8394825885301965003%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912281350--32741,-31035-2-14567-1912290350&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912281540--32741,-31436-2-14567-1912291325",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 24707.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1192%7c16626%7c2019-12-28T15%3a40%7c13390%7c2019-12-28T17%3a20%7c100%7c-%7c-%7c-%3bflight%7c-31436%7c548%7c13390%7c2019-12-28T20%3a55%7c13489%7c2019-12-28T23%3a20%7c145%7c-%7c-%7c-%3bflight%7c-31436%7c527%7c13489%7c2019-12-29T11%3a10%7c14567%7c2019-12-29T13%3a25%7c135%7c-%7c-%7c-%26carriers%3d-32741%2c-31436%26operators%3d-32741%3b-31436%3b-31436%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d24707.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c2545691524290516274%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912281540--32741,-31436-2-14567-1912291325&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912282035--31885,-31436-2-14567-1912291325",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 21687.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31885%7c168%7c16626%7c2019-12-28T20%3a35%7c10434%7c2019-12-28T21%3a30%7c55%7c-%7c-%7c-%3bflight%7c-31885%7c19%7c10434%7c2019-12-29T07%3a25%7c13489%7c2019-12-29T08%3a20%7c55%7c-%7c-%7c-%3bflight%7c-31436%7c527%7c13489%7c2019-12-29T11%3a10%7c14567%7c2019-12-29T13%3a25%7c135%7c-%7c-%7c-%26carriers%3d-31885%2c-31436%26operators%3d-31885%3b-31885%3b-31436%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d21687.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c1692271266310134765%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912282035--31885,-31436-2-14567-1912291325&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912280725--32021,-31436,-31035-2-14567-1912290350",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 25050.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32021%7c167%7c16626%7c2019-12-28T07%3a25%7c13489%7c2019-12-28T09%3a00%7c95%7c-%7c-%7c-%3bflight%7c-31436%7c509%7c13489%7c2019-12-28T15%3a50%7c13242%7c2019-12-28T18%3a35%7c165%7c-%7c-%7c-%3bflight%7c-31035%7c327%7c13242%7c2019-12-29T01%3a25%7c14567%7c2019-12-29T03%3a50%7c145%7c-%7c-%7c-%26carriers%3d-32021%2c-31436%2c-31035%26operators%3d-32021%3b-31436%3b-31035%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d25050.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c8457106875343180292%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912280725--32021,-31436,-31035-2-14567-1912290350&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912280140--32741,-31436-1-14567-1912281335",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 18972.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1120%7c16626%7c2019-12-28T01%3a40%7c9285%7c2019-12-28T04%3a10%7c150%7c-%7c-%7c-%3bflight%7c-31436%7c353%7c9285%7c2019-12-28T11%3a15%7c14567%7c2019-12-28T13%3a35%7c140%7c-%7c-%7c-%26carriers%3d-32741%2c-31436%26operators%3d-32741%3b-31436%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d18972.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c-7788086719545109385%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912280140--32741,-31436-1-14567-1912281335&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912282200--31885,-31436-2-14567-1912291325",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 26823.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31885%7c154%7c16626%7c2019-12-28T22%3a00%7c10434%7c2019-12-28T22%3a50%7c50%7c-%7c-%7c-%3bflight%7c-31885%7c19%7c10434%7c2019-12-29T07%3a25%7c13489%7c2019-12-29T08%3a20%7c55%7c-%7c-%7c-%3bflight%7c-31436%7c527%7c13489%7c2019-12-29T11%3a10%7c14567%7c2019-12-29T13%3a25%7c135%7c-%7c-%7c-%26carriers%3d-31885%2c-31436%26operators%3d-31885%3b-31885%3b-31436%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d26823.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c4878258423365806130%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912282200--31885,-31436-2-14567-1912291325&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912280925--32021,-31436,-31035-2-14567-1912290350",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 25884.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32021%7c177%7c16626%7c2019-12-28T09%3a25%7c13489%7c2019-12-28T10%3a50%7c85%7c-%7c-%7c-%3bflight%7c-31436%7c509%7c13489%7c2019-12-28T15%3a50%7c13242%7c2019-12-28T18%3a35%7c165%7c-%7c-%7c-%3bflight%7c-31035%7c327%7c13242%7c2019-12-29T01%3a25%7c14567%7c2019-12-29T03%3a50%7c145%7c-%7c-%7c-%26carriers%3d-32021%2c-31436%2c-31035%26operators%3d-32021%3b-31436%3b-31035%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d25884.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c-8589056971173523624%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912280925--32021,-31436,-31035-2-14567-1912290350&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912280900--32021,-31717,-31035-2-14567-1912290350",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 22596.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32021%7c229%7c16626%7c2019-12-28T09%3a00%7c9285%7c2019-12-28T11%3a35%7c155%7c-%7c-%7c-%3bflight%7c-31717%7c378%7c9285%7c2019-12-28T20%3a25%7c13242%7c2019-12-28T21%3a20%7c55%7c-%7c-%7c-%3bflight%7c-31035%7c327%7c13242%7c2019-12-29T01%3a25%7c14567%7c2019-12-29T03%3a50%7c145%7c-%7c-%7c-%26carriers%3d-32021%2c-31717%2c-31035%26operators%3d-32021%3b-31717%3b-31035%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d22596.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c8260938994801237104%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912280900--32021,-31717,-31035-2-14567-1912290350&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912282330--32021,-32741,-31436-2-14567-1912291325",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 32788.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32021%7c279%7c16626%7c2019-12-28T23%3a30%7c17282%7c2019-12-29T03%3a30%7c120%7c-%7c-%7c-%3bflight%7c-32741%7c6412%7c17282%7c2019-12-29T06%3a05%7c13489%7c2019-12-29T06%3a55%7c170%7c-%7c-%7c-%3bflight%7c-31436%7c527%7c13489%7c2019-12-29T11%3a10%7c14567%7c2019-12-29T13%3a25%7c135%7c-%7c-%7c-%26carriers%3d-32021%2c-32741%2c-31436%26operators%3d-32021%3b-31929%3b-31436%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d32788.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c8863511140574961885%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912282330--32021,-32741,-31436-2-14567-1912291325&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912281900--32021,-31035-1-14567-1912290350",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 16312.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32021%7c161%7c16626%7c2019-12-28T19%3a00%7c13242%7c2019-12-28T21%3a10%7c130%7c-%7c-%7c-%3bflight%7c-31035%7c327%7c13242%7c2019-12-29T01%3a25%7c14567%7c2019-12-29T03%3a50%7c145%7c-%7c-%7c-%26carriers%3d-32021%2c-31035%26operators%3d-32021%3b-31035%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d16312.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c-3941133745928708231%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912281900--32021,-31035-1-14567-1912290350&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912281750--32021,-32741,-31436-2-14567-1912291325",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 25494.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32021%7c175%7c16626%7c2019-12-28T17%3a50%7c13390%7c2019-12-28T19%3a30%7c100%7c-%7c-%7c-%3bflight%7c-32741%7c6596%7c13390%7c2019-12-29T05%3a00%7c13489%7c2019-12-29T07%3a10%7c130%7c-%7c-%7c-%3bflight%7c-31436%7c527%7c13489%7c2019-12-29T11%3a10%7c14567%7c2019-12-29T13%3a25%7c135%7c-%7c-%7c-%26carriers%3d-32021%2c-32741%2c-31436%26operators%3d-32021%3b-31929%3b-31436%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d25494.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c7866194810356416252%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912281750--32021,-32741,-31436-2-14567-1912291325&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912281210--32741,-31436,-31035-2-14567-1912290350",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 28126.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c42%7c16626%7c2019-12-28T12%3a10%7c13489%7c2019-12-28T13%3a40%7c90%7c-%7c-%7c-%3bflight%7c-31436%7c509%7c13489%7c2019-12-28T15%3a50%7c13242%7c2019-12-28T18%3a35%7c165%7c-%7c-%7c-%3bflight%7c-31035%7c327%7c13242%7c2019-12-29T01%3a25%7c14567%7c2019-12-29T03%3a50%7c145%7c-%7c-%7c-%26carriers%3d-32741%2c-31436%2c-31035%26operators%3d-32741%3b-31436%3b-31035%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d28126.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c-6983079955493474875%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912281210--32741,-31436,-31035-2-14567-1912290350&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912281550--32741,-31717,-31035-2-14567-1912290350",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 26197.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1126%7c16626%7c2019-12-28T15%3a50%7c9285%7c2019-12-28T18%3a25%7c155%7c-%7c-%7c-%3bflight%7c-31717%7c378%7c9285%7c2019-12-28T20%3a25%7c13242%7c2019-12-28T21%3a20%7c55%7c-%7c-%7c-%3bflight%7c-31035%7c327%7c13242%7c2019-12-29T01%3a25%7c14567%7c2019-12-29T03%3a50%7c145%7c-%7c-%7c-%26carriers%3d-32741%2c-31717%2c-31035%26operators%3d-32741%3b-31717%3b-31035%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d26197.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c5019974381396225958%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912281550--32741,-31717,-31035-2-14567-1912290350&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912281720--32021-0-14567-1912281905",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        2185861
+                    ],
+                    "QuoteAgeInMinutes": 1,
+                    "Price": 8612.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fctru%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32021%7c389%7c16626%7c2019-12-28T17%3a20%7c14567%7c2019-12-28T19%3a05%7c105%7c-%7c-%7c-%26carriers%3d-32021%26operators%3d-32021%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d8612.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dctru.5227.14567.191228..1..E%7c-6035642768805382583%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T16%3a03%3a00%26pqid%3dtrue"
+                },
+                {
+                    "Agents": [
+                        1943123
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 8664.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fakas%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32021%7c389%7c16626%7c2019-12-28T17%3a20%7c14567%7c2019-12-28T19%3a05%7c105%7c-%7cNLTOW%7c-%26carriers%3d-32021%26operators%3d-32021%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d8664.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dakas.16626.14567.191228..1..E%7c1359923393176561178%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        3513058
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 8696.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fottr%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32021%7c389%7c16626%7c2019-12-28T17%3a20%7c14567%7c2019-12-28T19%3a05%7c105%7c-%7c-%7c-%26carriers%3d-32021%26operators%3d-32021%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d8696.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dottr.16626.14567.191228..1..E%7c-6035642768805382583%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        4045189
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 8857.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2ftkru%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32021%7c389%7c16626%7c2019-12-28T17%3a20%7c14567%7c2019-12-28T19%3a05%7c105%7c-%7c-%7c-%26carriers%3d-32021%26operators%3d-32021%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d8857.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dtkru.16626.14567.191228..1..E%7c-6035642768805382583%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        3526638
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 8940.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fozon%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32021%7c389%7c16626%7c2019-12-28T17%3a20%7c14567%7c2019-12-28T19%3a05%7c105%7cNLTOW%7c-%7c-%26carriers%3d-32021%26operators%3d-32021%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d8940.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dozon.16626.14567.191228..1..E%7c1359923393176561178%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        4035973
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 9081.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2ftgru%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32021%7c389%7c16626%7c2019-12-28T17%3a20%7c14567%7c2019-12-28T19%3a05%7c105%7c-%7c-%7c-%26carriers%3d-32021%26operators%3d-32021%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d9081.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dtgru.16626.14567.191228..1..E%7c-6035642768805382583%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        3934928
+                    ],
+                    "QuoteAgeInMinutes": 1,
+                    "Price": 9440.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fskyp%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32021%7c389%7c16626%7c2019-12-28T17%3a20%7c14567%7c2019-12-28T19%3a05%7c105%7c-%7c-%7c-%26carriers%3d-32021%26operators%3d-32021%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d9440.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dskyp.16626.14567.191228..1..E%7c-6035642768805382583%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T16%3a03%3a00%26pqid%3dtrue"
+                },
+                {
+                    "Agents": [
+                        3957637
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 9538.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fsuru%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32021%7c389%7c16626%7c2019-12-28T17%3a20%7c14567%7c2019-12-28T19%3a05%7c105%7c-%7c-%7c-%26carriers%3d-32021%26operators%3d-32021%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d9538.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dsuru.16626.14567.191228..1..E%7c-6035642768805382583%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        2167073
+                    ],
+                    "QuoteAgeInMinutes": 94,
+                    "Price": 13125.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fclka%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32021%7c389%7c16626%7c2019-12-28T17%3a20%7c14567%7c2019-12-28T19%3a05%7c105%7c-%7c-%7c-%26carriers%3d-32021%26operators%3d-32021%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d13125.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dclka.5227.14567.191228..1..E%7c-6035642768805382583%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T14%3a30%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912281720--32021-0-14567-1912281905&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912280825--32741-0-14567-1912281020",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        2499060
+                    ],
+                    "QuoteAgeInMinutes": 1,
+                    "Price": 12061.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fflot%2f1%2f16626.14567.2019-12-28%2fair%2fairli%2fflights%3fitinerary%3dflight%7c-32741%7c1254%7c16626%7c2019-12-28T08%3a25%7c14567%7c2019-12-28T10%3a20%7c115%7cKNOR%7cK%7cEconomy+Lite%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d12061.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dflot.16626.14567.191228..1..E%7c4427530420874354709%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T16%3a03%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        3526638
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 12061.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fozon%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1254%7c16626%7c2019-12-28T08%3a25%7c14567%7c2019-12-28T10%3a20%7c115%7cKNOR%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d12061.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dozon.16626.14567.191228..1..E%7c7668903018601839347%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        4045189
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 12061.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2ftkru%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1254%7c16626%7c2019-12-28T08%3a25%7c14567%7c2019-12-28T10%3a20%7c115%7c-%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d12061.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dtkru.16626.14567.191228..1..E%7c8958257395563082765%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 12061.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1254%7c16626%7c2019-12-28T08%3a25%7c14567%7c2019-12-28T10%3a20%7c115%7c-%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d12061.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c8958257395563082765%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        3513058
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 12116.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fottr%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1254%7c16626%7c2019-12-28T08%3a25%7c14567%7c2019-12-28T10%3a20%7c115%7c-%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d12116.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dottr.16626.14567.191228..1..E%7c8958257395563082765%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        2185861
+                    ],
+                    "QuoteAgeInMinutes": 1,
+                    "Price": 12134.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fctru%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1254%7c16626%7c2019-12-28T08%3a25%7c14567%7c2019-12-28T10%3a20%7c115%7c-%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d12134.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dctru.5227.14567.191228..1..E%7c8958257395563082765%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T16%3a03%3a00%26pqid%3dtrue"
+                },
+                {
+                    "Agents": [
+                        1943123
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 12440.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fakas%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1254%7c16626%7c2019-12-28T08%3a25%7c14567%7c2019-12-28T10%3a20%7c115%7c-%7cKNOR%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d12440.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dakas.16626.14567.191228..1..E%7c7668903018601839347%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        4035973
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 12706.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2ftgru%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1254%7c16626%7c2019-12-28T08%3a25%7c14567%7c2019-12-28T10%3a20%7c115%7c-%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d12706.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dtgru.16626.14567.191228..1..E%7c8958257395563082765%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        3957637
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 12921.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fsuru%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1254%7c16626%7c2019-12-28T08%3a25%7c14567%7c2019-12-28T10%3a20%7c115%7c-%7c-%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d12921.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dsuru.16626.14567.191228..1..E%7c8958257395563082765%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                },
+                {
+                    "Agents": [
+                        3934928
+                    ],
+                    "QuoteAgeInMinutes": 1,
+                    "Price": 13007.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fskyp%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1254%7c16626%7c2019-12-28T08%3a25%7c14567%7c2019-12-28T10%3a20%7c115%7cKNOR%7cK%7c-%26carriers%3d-32741%26operators%3d-32741%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dtrue%26ticket_price%3d13007.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dskyp.16626.14567.191228..1..E%7c7328184936539437744%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T16%3a03%3a00%26pqid%3dtrue"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912280825--32741-0-14567-1912281020&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912280240--32741,-31717,-31436-2-14567-1912281335",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 16133.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1108%7c16626%7c2019-12-28T02%3a40%7c13242%7c2019-12-28T05%3a00%7c140%7c-%7c-%7c-%3bflight%7c-31717%7c297%7c13242%7c2019-12-28T08%3a15%7c9285%7c2019-12-28T09%3a05%7c50%7c-%7c-%7c-%3bflight%7c-31436%7c353%7c9285%7c2019-12-28T11%3a15%7c14567%7c2019-12-28T13%3a35%7c140%7c-%7c-%7c-%26carriers%3d-32741%2c-31717%2c-31436%26operators%3d-32741%3b-31717%3b-31436%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d16133.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c-5905468881973122031%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912280240--32741,-31717,-31436-2-14567-1912281335&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912281730--32741,-31035-1-14567-1912290350",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 18885.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1106%7c16626%7c2019-12-28T17%3a30%7c13242%7c2019-12-28T19%3a50%7c140%7c-%7c-%7c-%3bflight%7c-31035%7c327%7c13242%7c2019-12-29T01%3a25%7c14567%7c2019-12-29T03%3a50%7c145%7c-%7c-%7c-%26carriers%3d-32741%2c-31035%26operators%3d-32741%3b-31035%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d18885.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c-5748504937143725893%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912281730--32741,-31035-1-14567-1912290350&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912280740--32741,-31436-1-14567-1912281740",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 11441.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c1296%7c16626%7c2019-12-28T07%3a40%7c12458%7c2019-12-28T10%3a40%7c120%7c-%7c-%7c-%3bflight%7c-31436%7c72%7c12458%7c2019-12-28T15%3a10%7c14567%7c2019-12-28T17%3a40%7c210%7c-%7c-%7c-%26carriers%3d-32741%2c-31436%26operators%3d-32741%3b-31436%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d11441.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c-6513839866019002177%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912280740--32741,-31436-1-14567-1912281740&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912281750--32021,-32203,-31436-2-14567-1912291325",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 24435.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32021%7c175%7c16626%7c2019-12-28T17%3a50%7c13390%7c2019-12-28T19%3a30%7c100%7c-%7c-%7c-%3bflight%7c-32203%7c336%7c13390%7c2019-12-28T21%3a40%7c13489%7c2019-12-28T23%3a40%7c120%7c-%7c-%7c-%3bflight%7c-31436%7c527%7c13489%7c2019-12-29T11%3a10%7c14567%7c2019-12-29T13%3a25%7c135%7c-%7c-%7c-%26carriers%3d-32021%2c-32203%2c-31436%26operators%3d-32021%3b-32203%3b-31436%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d24435.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c4427637615544344354%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912281750--32021,-32203,-31436-2-14567-1912291325&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912281010--32741,-31717,-31035-3-14567-1912290350",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 29332.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c14%7c16626%7c2019-12-28T10%3a10%7c13489%7c2019-12-28T11%3a40%7c90%7c-%7c-%7c-%3bflight%7c-32741%7c6563%7c13489%7c2019-12-28T13%3a10%7c9285%7c2019-12-28T16%3a20%7c190%7c-%7c-%7c-%3bflight%7c-31717%7c378%7c9285%7c2019-12-28T20%3a25%7c13242%7c2019-12-28T21%3a20%7c55%7c-%7c-%7c-%3bflight%7c-31035%7c327%7c13242%7c2019-12-29T01%3a25%7c14567%7c2019-12-29T03%3a50%7c145%7c-%7c-%7c-%26carriers%3d-32741%2c-31717%2c-31035%26operators%3d-32741%3b-31929%3b-31717%3b-31035%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d29332.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c8151544839012892510%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912281010--32741,-31717,-31035-3-14567-1912290350&InboundLegId=",
+                "Method": "PUT"
+            }
+        },
+        {
+            "OutboundLegId": "16626-1912282350--32741,-31436-1-14567-1912291325",
+            "PricingOptions": [
+                {
+                    "Agents": [
+                        3072121
+                    ],
+                    "QuoteAgeInMinutes": 24,
+                    "Price": 16790.00,
+                    "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=NqagL4PVt5peZGMG189S4zg4dm39CEoR%2bV8UrnEXQEuJZ36mI8cG9Fi4G8qRAMyN&url=https%3a%2f%2fwww.skyscanner.net%2ftransport_deeplink%2f4.0%2fRU%2fen-US%2fRUB%2fkubi%2f1%2f16626.14567.2019-12-28%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c46%7c16626%7c2019-12-28T23%3a50%7c13489%7c2019-12-29T01%3a25%7c95%7c-%7c-%7c-%3bflight%7c-31436%7c527%7c13489%7c2019-12-29T11%3a10%7c14567%7c2019-12-29T13%3a25%7c135%7c-%7c-%7c-%26carriers%3d-32741%2c-31436%26operators%3d-32741%3b-31436%26passengers%3d1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d16790.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26q_ids%3dkubi.16626.14567.191228..1..E%7c-7608302068507746843%26q_sources%3dJACQUARD%26commercial_filters%3dfalse%26q_datetime_utc%3d2019-12-08T15%3a40%3a00%26pqid%3dfalse"
+                }
+            ],
+            "BookingDetailsLink": {
+                "Uri": "/apiservices/pricing/v1.0/27ef4791-41c8-4e25-ae58-e052c21bf8fe/booking",
+                "Body": "OutboundLegId=16626-1912282350--32741,-31436-1-14567-1912291325&InboundLegId=",
+                "Method": "PUT"
+            }
+        }
+    ],
+    "Legs": [
+        {
+            "Id": "16626-1912280640--32741,-31035-1-14567-1912290350",
+            "SegmentIds": [
+                0,
+                1
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T06:40:00",
+            "Arrival": "2019-12-29T03:50:00",
+            "Duration": 1270,
+            "JourneyMode": "Flight",
+            "Stops": [
+                13242
+            ],
+            "Carriers": [
+                1717,
+                239
+            ],
+            "OperatingCarriers": [
+                1094,
+                239
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "6177",
+                    "CarrierId": 1717
+                },
+                {
+                    "FlightNumber": "327",
+                    "CarrierId": 239
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912280725--32021,-31436-1-14567-1912291325",
+            "SegmentIds": [
+                2,
+                3
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T07:25:00",
+            "Arrival": "2019-12-29T13:25:00",
+            "Duration": 1800,
+            "JourneyMode": "Flight",
+            "Stops": [
+                13489
+            ],
+            "Carriers": [
+                1479,
+                1352
+            ],
+            "OperatingCarriers": [
+                1479,
+                1352
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "167",
+                    "CarrierId": 1479
+                },
+                {
+                    "FlightNumber": "527",
+                    "CarrierId": 1352
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912282245--32741-0-14567-1912290040",
+            "SegmentIds": [
+                4
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T22:45:00",
+            "Arrival": "2019-12-29T00:40:00",
+            "Duration": 115,
+            "JourneyMode": "Flight",
+            "Stops": [],
+            "Carriers": [
+                1717
+            ],
+            "OperatingCarriers": [
+                1717
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "1250",
+                    "CarrierId": 1717
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912281540--32741,-32203,-31436-2-14567-1912291325",
+            "SegmentIds": [
+                5,
+                6,
+                3
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T15:40:00",
+            "Arrival": "2019-12-29T13:25:00",
+            "Duration": 1305,
+            "JourneyMode": "Flight",
+            "Stops": [
+                13390,
+                13489
+            ],
+            "Carriers": [
+                1717,
+                1231,
+                1352
+            ],
+            "OperatingCarriers": [
+                1717,
+                1231,
+                1352
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "527",
+                    "CarrierId": 1352
+                },
+                {
+                    "FlightNumber": "1192",
+                    "CarrierId": 1717
+                },
+                {
+                    "FlightNumber": "336",
+                    "CarrierId": 1231
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912281500--32741-0-14567-1912281650",
+            "SegmentIds": [
+                7
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T15:00:00",
+            "Arrival": "2019-12-28T16:50:00",
+            "Duration": 110,
+            "JourneyMode": "Flight",
+            "Stops": [],
+            "Carriers": [
+                1717
+            ],
+            "OperatingCarriers": [
+                1717
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "1252",
+                    "CarrierId": 1717
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912280925--32021,-31717,-31035-3-14567-1912290350",
+            "SegmentIds": [
+                8,
+                9,
+                10,
+                1
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T09:25:00",
+            "Arrival": "2019-12-29T03:50:00",
+            "Duration": 1105,
+            "JourneyMode": "Flight",
+            "Stops": [
+                13489,
+                9285,
+                13242
+            ],
+            "Carriers": [
+                1479,
+                1812,
+                239
+            ],
+            "OperatingCarriers": [
+                1479,
+                1812,
+                239
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "327",
+                    "CarrierId": 239
+                },
+                {
+                    "FlightNumber": "177",
+                    "CarrierId": 1479
+                },
+                {
+                    "FlightNumber": "139",
+                    "CarrierId": 1479
+                },
+                {
+                    "FlightNumber": "378",
+                    "CarrierId": 1812
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912280620--32741,-31436-1-14567-1912281335",
+            "SegmentIds": [
+                11,
+                12
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T06:20:00",
+            "Arrival": "2019-12-28T13:35:00",
+            "Duration": 435,
+            "JourneyMode": "Flight",
+            "Stops": [
+                9285
+            ],
+            "Carriers": [
+                1717,
+                1352
+            ],
+            "OperatingCarriers": [
+                1717,
+                1352
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "1138",
+                    "CarrierId": 1717
+                },
+                {
+                    "FlightNumber": "353",
+                    "CarrierId": 1352
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912282345--32741,-31436-2-14567-1912291325",
+            "SegmentIds": [
+                13,
+                14,
+                3
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T23:45:00",
+            "Arrival": "2019-12-29T13:25:00",
+            "Duration": 820,
+            "JourneyMode": "Flight",
+            "Stops": [
+                13390,
+                13489
+            ],
+            "Carriers": [
+                1717,
+                1352
+            ],
+            "OperatingCarriers": [
+                1717,
+                1094,
+                1352
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "527",
+                    "CarrierId": 1352
+                },
+                {
+                    "FlightNumber": "1196",
+                    "CarrierId": 1717
+                },
+                {
+                    "FlightNumber": "6596",
+                    "CarrierId": 1717
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912282350--32021,-31436-1-14567-1912291325",
+            "SegmentIds": [
+                15,
+                3
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T23:50:00",
+            "Arrival": "2019-12-29T13:25:00",
+            "Duration": 815,
+            "JourneyMode": "Flight",
+            "Stops": [
+                13489
+            ],
+            "Carriers": [
+                1479,
+                1352
+            ],
+            "OperatingCarriers": [
+                1479,
+                1352
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "527",
+                    "CarrierId": 1352
+                },
+                {
+                    "FlightNumber": "197",
+                    "CarrierId": 1479
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912281350--32741,-31035-2-14567-1912290350",
+            "SegmentIds": [
+                16,
+                17,
+                1
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T13:50:00",
+            "Arrival": "2019-12-29T03:50:00",
+            "Duration": 840,
+            "JourneyMode": "Flight",
+            "Stops": [
+                13489,
+                13242
+            ],
+            "Carriers": [
+                1717,
+                239
+            ],
+            "OperatingCarriers": [
+                1717,
+                1094,
+                239
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "327",
+                    "CarrierId": 239
+                },
+                {
+                    "FlightNumber": "38",
+                    "CarrierId": 1717
+                },
+                {
+                    "FlightNumber": "6313",
+                    "CarrierId": 1717
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912281540--32741,-31436-2-14567-1912291325",
+            "SegmentIds": [
+                5,
+                18,
+                3
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T15:40:00",
+            "Arrival": "2019-12-29T13:25:00",
+            "Duration": 1305,
+            "JourneyMode": "Flight",
+            "Stops": [
+                13390,
+                13489
+            ],
+            "Carriers": [
+                1717,
+                1352
+            ],
+            "OperatingCarriers": [
+                1717,
+                1352
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "527",
+                    "CarrierId": 1352
+                },
+                {
+                    "FlightNumber": "1192",
+                    "CarrierId": 1717
+                },
+                {
+                    "FlightNumber": "548",
+                    "CarrierId": 1352
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912282035--31885,-31436-2-14567-1912291325",
+            "SegmentIds": [
+                19,
+                20,
+                3
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T20:35:00",
+            "Arrival": "2019-12-29T13:25:00",
+            "Duration": 1010,
+            "JourneyMode": "Flight",
+            "Stops": [
+                10434,
+                13489
+            ],
+            "Carriers": [
+                962,
+                1352
+            ],
+            "OperatingCarriers": [
+                962,
+                1352
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "527",
+                    "CarrierId": 1352
+                },
+                {
+                    "FlightNumber": "168",
+                    "CarrierId": 962
+                },
+                {
+                    "FlightNumber": "19",
+                    "CarrierId": 962
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912280725--32021,-31436,-31035-2-14567-1912290350",
+            "SegmentIds": [
+                2,
+                21,
+                1
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T07:25:00",
+            "Arrival": "2019-12-29T03:50:00",
+            "Duration": 1225,
+            "JourneyMode": "Flight",
+            "Stops": [
+                13489,
+                13242
+            ],
+            "Carriers": [
+                1479,
+                1352,
+                239
+            ],
+            "OperatingCarriers": [
+                1479,
+                1352,
+                239
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "327",
+                    "CarrierId": 239
+                },
+                {
+                    "FlightNumber": "167",
+                    "CarrierId": 1479
+                },
+                {
+                    "FlightNumber": "509",
+                    "CarrierId": 1352
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912280140--32741,-31436-1-14567-1912281335",
+            "SegmentIds": [
+                22,
+                12
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T01:40:00",
+            "Arrival": "2019-12-28T13:35:00",
+            "Duration": 715,
+            "JourneyMode": "Flight",
+            "Stops": [
+                9285
+            ],
+            "Carriers": [
+                1717,
+                1352
+            ],
+            "OperatingCarriers": [
+                1717,
+                1352
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "353",
+                    "CarrierId": 1352
+                },
+                {
+                    "FlightNumber": "1120",
+                    "CarrierId": 1717
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912282200--31885,-31436-2-14567-1912291325",
+            "SegmentIds": [
+                23,
+                20,
+                3
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T22:00:00",
+            "Arrival": "2019-12-29T13:25:00",
+            "Duration": 925,
+            "JourneyMode": "Flight",
+            "Stops": [
+                10434,
+                13489
+            ],
+            "Carriers": [
+                962,
+                1352
+            ],
+            "OperatingCarriers": [
+                962,
+                1352
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "527",
+                    "CarrierId": 1352
+                },
+                {
+                    "FlightNumber": "19",
+                    "CarrierId": 962
+                },
+                {
+                    "FlightNumber": "154",
+                    "CarrierId": 962
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912280925--32021,-31436,-31035-2-14567-1912290350",
+            "SegmentIds": [
+                8,
+                21,
+                1
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T09:25:00",
+            "Arrival": "2019-12-29T03:50:00",
+            "Duration": 1105,
+            "JourneyMode": "Flight",
+            "Stops": [
+                13489,
+                13242
+            ],
+            "Carriers": [
+                1479,
+                1352,
+                239
+            ],
+            "OperatingCarriers": [
+                1479,
+                1352,
+                239
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "327",
+                    "CarrierId": 239
+                },
+                {
+                    "FlightNumber": "177",
+                    "CarrierId": 1479
+                },
+                {
+                    "FlightNumber": "509",
+                    "CarrierId": 1352
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912280900--32021,-31717,-31035-2-14567-1912290350",
+            "SegmentIds": [
+                24,
+                10,
+                1
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T09:00:00",
+            "Arrival": "2019-12-29T03:50:00",
+            "Duration": 1130,
+            "JourneyMode": "Flight",
+            "Stops": [
+                9285,
+                13242
+            ],
+            "Carriers": [
+                1479,
+                1812,
+                239
+            ],
+            "OperatingCarriers": [
+                1479,
+                1812,
+                239
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "327",
+                    "CarrierId": 239
+                },
+                {
+                    "FlightNumber": "378",
+                    "CarrierId": 1812
+                },
+                {
+                    "FlightNumber": "229",
+                    "CarrierId": 1479
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912282330--32021,-32741,-31436-2-14567-1912291325",
+            "SegmentIds": [
+                25,
+                26,
+                3
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T23:30:00",
+            "Arrival": "2019-12-29T13:25:00",
+            "Duration": 835,
+            "JourneyMode": "Flight",
+            "Stops": [
+                17282,
+                13489
+            ],
+            "Carriers": [
+                1479,
+                1717,
+                1352
+            ],
+            "OperatingCarriers": [
+                1479,
+                1094,
+                1352
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "527",
+                    "CarrierId": 1352
+                },
+                {
+                    "FlightNumber": "279",
+                    "CarrierId": 1479
+                },
+                {
+                    "FlightNumber": "6412",
+                    "CarrierId": 1717
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912281900--32021,-31035-1-14567-1912290350",
+            "SegmentIds": [
+                27,
+                1
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T19:00:00",
+            "Arrival": "2019-12-29T03:50:00",
+            "Duration": 530,
+            "JourneyMode": "Flight",
+            "Stops": [
+                13242
+            ],
+            "Carriers": [
+                1479,
+                239
+            ],
+            "OperatingCarriers": [
+                1479,
+                239
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "327",
+                    "CarrierId": 239
+                },
+                {
+                    "FlightNumber": "161",
+                    "CarrierId": 1479
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912281750--32021,-32741,-31436-2-14567-1912291325",
+            "SegmentIds": [
+                28,
+                14,
+                3
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T17:50:00",
+            "Arrival": "2019-12-29T13:25:00",
+            "Duration": 1175,
+            "JourneyMode": "Flight",
+            "Stops": [
+                13390,
+                13489
+            ],
+            "Carriers": [
+                1479,
+                1717,
+                1352
+            ],
+            "OperatingCarriers": [
+                1479,
+                1094,
+                1352
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "527",
+                    "CarrierId": 1352
+                },
+                {
+                    "FlightNumber": "6596",
+                    "CarrierId": 1717
+                },
+                {
+                    "FlightNumber": "175",
+                    "CarrierId": 1479
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912281210--32741,-31436,-31035-2-14567-1912290350",
+            "SegmentIds": [
+                29,
+                21,
+                1
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T12:10:00",
+            "Arrival": "2019-12-29T03:50:00",
+            "Duration": 940,
+            "JourneyMode": "Flight",
+            "Stops": [
+                13489,
+                13242
+            ],
+            "Carriers": [
+                1717,
+                1352,
+                239
+            ],
+            "OperatingCarriers": [
+                1717,
+                1352,
+                239
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "327",
+                    "CarrierId": 239
+                },
+                {
+                    "FlightNumber": "509",
+                    "CarrierId": 1352
+                },
+                {
+                    "FlightNumber": "42",
+                    "CarrierId": 1717
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912281550--32741,-31717,-31035-2-14567-1912290350",
+            "SegmentIds": [
+                30,
+                10,
+                1
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T15:50:00",
+            "Arrival": "2019-12-29T03:50:00",
+            "Duration": 720,
+            "JourneyMode": "Flight",
+            "Stops": [
+                9285,
+                13242
+            ],
+            "Carriers": [
+                1717,
+                1812,
+                239
+            ],
+            "OperatingCarriers": [
+                1717,
+                1812,
+                239
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "327",
+                    "CarrierId": 239
+                },
+                {
+                    "FlightNumber": "378",
+                    "CarrierId": 1812
+                },
+                {
+                    "FlightNumber": "1126",
+                    "CarrierId": 1717
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912281720--32021-0-14567-1912281905",
+            "SegmentIds": [
+                31
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T17:20:00",
+            "Arrival": "2019-12-28T19:05:00",
+            "Duration": 105,
+            "JourneyMode": "Flight",
+            "Stops": [],
+            "Carriers": [
+                1479
+            ],
+            "OperatingCarriers": [
+                1479
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "389",
+                    "CarrierId": 1479
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912280825--32741-0-14567-1912281020",
+            "SegmentIds": [
+                32
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T08:25:00",
+            "Arrival": "2019-12-28T10:20:00",
+            "Duration": 115,
+            "JourneyMode": "Flight",
+            "Stops": [],
+            "Carriers": [
+                1717
+            ],
+            "OperatingCarriers": [
+                1717
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "1254",
+                    "CarrierId": 1717
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912280240--32741,-31717,-31436-2-14567-1912281335",
+            "SegmentIds": [
+                33,
+                34,
+                12
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T02:40:00",
+            "Arrival": "2019-12-28T13:35:00",
+            "Duration": 655,
+            "JourneyMode": "Flight",
+            "Stops": [
+                13242,
+                9285
+            ],
+            "Carriers": [
+                1717,
+                1812,
+                1352
+            ],
+            "OperatingCarriers": [
+                1717,
+                1812,
+                1352
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "353",
+                    "CarrierId": 1352
+                },
+                {
+                    "FlightNumber": "1108",
+                    "CarrierId": 1717
+                },
+                {
+                    "FlightNumber": "297",
+                    "CarrierId": 1812
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912281730--32741,-31035-1-14567-1912290350",
+            "SegmentIds": [
+                35,
+                1
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T17:30:00",
+            "Arrival": "2019-12-29T03:50:00",
+            "Duration": 620,
+            "JourneyMode": "Flight",
+            "Stops": [
+                13242
+            ],
+            "Carriers": [
+                1717,
+                239
+            ],
+            "OperatingCarriers": [
+                1717,
+                239
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "327",
+                    "CarrierId": 239
+                },
+                {
+                    "FlightNumber": "1106",
+                    "CarrierId": 1717
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912280740--32741,-31436-1-14567-1912281740",
+            "SegmentIds": [
+                36,
+                37
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T07:40:00",
+            "Arrival": "2019-12-28T17:40:00",
+            "Duration": 600,
+            "JourneyMode": "Flight",
+            "Stops": [
+                12458
+            ],
+            "Carriers": [
+                1717,
+                1352
+            ],
+            "OperatingCarriers": [
+                1717,
+                1352
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "1296",
+                    "CarrierId": 1717
+                },
+                {
+                    "FlightNumber": "72",
+                    "CarrierId": 1352
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912281750--32021,-32203,-31436-2-14567-1912291325",
+            "SegmentIds": [
+                28,
+                6,
+                3
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T17:50:00",
+            "Arrival": "2019-12-29T13:25:00",
+            "Duration": 1175,
+            "JourneyMode": "Flight",
+            "Stops": [
+                13390,
+                13489
+            ],
+            "Carriers": [
+                1479,
+                1231,
+                1352
+            ],
+            "OperatingCarriers": [
+                1479,
+                1231,
+                1352
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "527",
+                    "CarrierId": 1352
+                },
+                {
+                    "FlightNumber": "336",
+                    "CarrierId": 1231
+                },
+                {
+                    "FlightNumber": "175",
+                    "CarrierId": 1479
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912281010--32741,-31717,-31035-3-14567-1912290350",
+            "SegmentIds": [
+                38,
+                39,
+                10,
+                1
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T10:10:00",
+            "Arrival": "2019-12-29T03:50:00",
+            "Duration": 1060,
+            "JourneyMode": "Flight",
+            "Stops": [
+                13489,
+                9285,
+                13242
+            ],
+            "Carriers": [
+                1717,
+                1812,
+                239
+            ],
+            "OperatingCarriers": [
+                1717,
+                1094,
+                1812,
+                239
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "327",
+                    "CarrierId": 239
+                },
+                {
+                    "FlightNumber": "378",
+                    "CarrierId": 1812
+                },
+                {
+                    "FlightNumber": "14",
+                    "CarrierId": 1717
+                },
+                {
+                    "FlightNumber": "6563",
+                    "CarrierId": 1717
+                }
+            ]
+        },
+        {
+            "Id": "16626-1912282350--32741,-31436-1-14567-1912291325",
+            "SegmentIds": [
+                40,
+                3
+            ],
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "Departure": "2019-12-28T23:50:00",
+            "Arrival": "2019-12-29T13:25:00",
+            "Duration": 815,
+            "JourneyMode": "Flight",
+            "Stops": [
+                13489
+            ],
+            "Carriers": [
+                1717,
+                1352
+            ],
+            "OperatingCarriers": [
+                1717,
+                1352
+            ],
+            "Directionality": "Outbound",
+            "FlightNumbers": [
+                {
+                    "FlightNumber": "527",
+                    "CarrierId": 1352
+                },
+                {
+                    "FlightNumber": "46",
+                    "CarrierId": 1717
+                }
+            ]
+        }
+    ],
+    "Segments": [
+        {
+            "Id": 0,
+            "OriginStation": 16626,
+            "DestinationStation": 13242,
+            "DepartureDateTime": "2019-12-28T06:40:00",
+            "ArrivalDateTime": "2019-12-28T09:00:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1094,
+            "Duration": 140,
+            "FlightNumber": "6177",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 1,
+            "OriginStation": 13242,
+            "DestinationStation": 14567,
+            "DepartureDateTime": "2019-12-29T01:25:00",
+            "ArrivalDateTime": "2019-12-29T03:50:00",
+            "Carrier": 239,
+            "OperatingCarrier": 239,
+            "Duration": 145,
+            "FlightNumber": "327",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 2,
+            "OriginStation": 16626,
+            "DestinationStation": 13489,
+            "DepartureDateTime": "2019-12-28T07:25:00",
+            "ArrivalDateTime": "2019-12-28T09:00:00",
+            "Carrier": 1479,
+            "OperatingCarrier": 1479,
+            "Duration": 95,
+            "FlightNumber": "167",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 3,
+            "OriginStation": 13489,
+            "DestinationStation": 14567,
+            "DepartureDateTime": "2019-12-29T11:10:00",
+            "ArrivalDateTime": "2019-12-29T13:25:00",
+            "Carrier": 1352,
+            "OperatingCarrier": 1352,
+            "Duration": 135,
+            "FlightNumber": "527",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 4,
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "DepartureDateTime": "2019-12-28T22:45:00",
+            "ArrivalDateTime": "2019-12-29T00:40:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1717,
+            "Duration": 115,
+            "FlightNumber": "1250",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 5,
+            "OriginStation": 16626,
+            "DestinationStation": 13390,
+            "DepartureDateTime": "2019-12-28T15:40:00",
+            "ArrivalDateTime": "2019-12-28T17:20:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1717,
+            "Duration": 100,
+            "FlightNumber": "1192",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 6,
+            "OriginStation": 13390,
+            "DestinationStation": 13489,
+            "DepartureDateTime": "2019-12-28T21:40:00",
+            "ArrivalDateTime": "2019-12-28T23:40:00",
+            "Carrier": 1231,
+            "OperatingCarrier": 1231,
+            "Duration": 120,
+            "FlightNumber": "336",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 7,
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "DepartureDateTime": "2019-12-28T15:00:00",
+            "ArrivalDateTime": "2019-12-28T16:50:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1717,
+            "Duration": 110,
+            "FlightNumber": "1252",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 8,
+            "OriginStation": 16626,
+            "DestinationStation": 13489,
+            "DepartureDateTime": "2019-12-28T09:25:00",
+            "ArrivalDateTime": "2019-12-28T10:50:00",
+            "Carrier": 1479,
+            "OperatingCarrier": 1479,
+            "Duration": 85,
+            "FlightNumber": "177",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 9,
+            "OriginStation": 13489,
+            "DestinationStation": 9285,
+            "DepartureDateTime": "2019-12-28T12:00:00",
+            "ArrivalDateTime": "2019-12-28T15:10:00",
+            "Carrier": 1479,
+            "OperatingCarrier": 1479,
+            "Duration": 190,
+            "FlightNumber": "139",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 10,
+            "OriginStation": 9285,
+            "DestinationStation": 13242,
+            "DepartureDateTime": "2019-12-28T20:25:00",
+            "ArrivalDateTime": "2019-12-28T21:20:00",
+            "Carrier": 1812,
+            "OperatingCarrier": 1812,
+            "Duration": 55,
+            "FlightNumber": "378",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 11,
+            "OriginStation": 16626,
+            "DestinationStation": 9285,
+            "DepartureDateTime": "2019-12-28T06:20:00",
+            "ArrivalDateTime": "2019-12-28T08:55:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1717,
+            "Duration": 155,
+            "FlightNumber": "1138",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 12,
+            "OriginStation": 9285,
+            "DestinationStation": 14567,
+            "DepartureDateTime": "2019-12-28T11:15:00",
+            "ArrivalDateTime": "2019-12-28T13:35:00",
+            "Carrier": 1352,
+            "OperatingCarrier": 1352,
+            "Duration": 140,
+            "FlightNumber": "353",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 13,
+            "OriginStation": 16626,
+            "DestinationStation": 13390,
+            "DepartureDateTime": "2019-12-28T23:45:00",
+            "ArrivalDateTime": "2019-12-29T01:25:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1717,
+            "Duration": 100,
+            "FlightNumber": "1196",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 14,
+            "OriginStation": 13390,
+            "DestinationStation": 13489,
+            "DepartureDateTime": "2019-12-29T05:00:00",
+            "ArrivalDateTime": "2019-12-29T07:10:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1094,
+            "Duration": 130,
+            "FlightNumber": "6596",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 15,
+            "OriginStation": 16626,
+            "DestinationStation": 13489,
+            "DepartureDateTime": "2019-12-28T23:50:00",
+            "ArrivalDateTime": "2019-12-29T01:15:00",
+            "Carrier": 1479,
+            "OperatingCarrier": 1479,
+            "Duration": 85,
+            "FlightNumber": "197",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 16,
+            "OriginStation": 16626,
+            "DestinationStation": 13489,
+            "DepartureDateTime": "2019-12-28T13:50:00",
+            "ArrivalDateTime": "2019-12-28T15:20:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1717,
+            "Duration": 90,
+            "FlightNumber": "38",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 17,
+            "OriginStation": 13489,
+            "DestinationStation": 13242,
+            "DepartureDateTime": "2019-12-28T16:35:00",
+            "ArrivalDateTime": "2019-12-28T19:30:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1094,
+            "Duration": 175,
+            "FlightNumber": "6313",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 18,
+            "OriginStation": 13390,
+            "DestinationStation": 13489,
+            "DepartureDateTime": "2019-12-28T20:55:00",
+            "ArrivalDateTime": "2019-12-28T23:20:00",
+            "Carrier": 1352,
+            "OperatingCarrier": 1352,
+            "Duration": 145,
+            "FlightNumber": "548",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 19,
+            "OriginStation": 16626,
+            "DestinationStation": 10434,
+            "DepartureDateTime": "2019-12-28T20:35:00",
+            "ArrivalDateTime": "2019-12-28T21:30:00",
+            "Carrier": 962,
+            "OperatingCarrier": 962,
+            "Duration": 55,
+            "FlightNumber": "168",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 20,
+            "OriginStation": 10434,
+            "DestinationStation": 13489,
+            "DepartureDateTime": "2019-12-29T07:25:00",
+            "ArrivalDateTime": "2019-12-29T08:20:00",
+            "Carrier": 962,
+            "OperatingCarrier": 962,
+            "Duration": 55,
+            "FlightNumber": "19",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 21,
+            "OriginStation": 13489,
+            "DestinationStation": 13242,
+            "DepartureDateTime": "2019-12-28T15:50:00",
+            "ArrivalDateTime": "2019-12-28T18:35:00",
+            "Carrier": 1352,
+            "OperatingCarrier": 1352,
+            "Duration": 165,
+            "FlightNumber": "509",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 22,
+            "OriginStation": 16626,
+            "DestinationStation": 9285,
+            "DepartureDateTime": "2019-12-28T01:40:00",
+            "ArrivalDateTime": "2019-12-28T04:10:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1717,
+            "Duration": 150,
+            "FlightNumber": "1120",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 23,
+            "OriginStation": 16626,
+            "DestinationStation": 10434,
+            "DepartureDateTime": "2019-12-28T22:00:00",
+            "ArrivalDateTime": "2019-12-28T22:50:00",
+            "Carrier": 962,
+            "OperatingCarrier": 962,
+            "Duration": 50,
+            "FlightNumber": "154",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 24,
+            "OriginStation": 16626,
+            "DestinationStation": 9285,
+            "DepartureDateTime": "2019-12-28T09:00:00",
+            "ArrivalDateTime": "2019-12-28T11:35:00",
+            "Carrier": 1479,
+            "OperatingCarrier": 1479,
+            "Duration": 155,
+            "FlightNumber": "229",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 25,
+            "OriginStation": 16626,
+            "DestinationStation": 17282,
+            "DepartureDateTime": "2019-12-28T23:30:00",
+            "ArrivalDateTime": "2019-12-29T03:30:00",
+            "Carrier": 1479,
+            "OperatingCarrier": 1479,
+            "Duration": 120,
+            "FlightNumber": "279",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 26,
+            "OriginStation": 17282,
+            "DestinationStation": 13489,
+            "DepartureDateTime": "2019-12-29T06:05:00",
+            "ArrivalDateTime": "2019-12-29T06:55:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1094,
+            "Duration": 170,
+            "FlightNumber": "6412",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 27,
+            "OriginStation": 16626,
+            "DestinationStation": 13242,
+            "DepartureDateTime": "2019-12-28T19:00:00",
+            "ArrivalDateTime": "2019-12-28T21:10:00",
+            "Carrier": 1479,
+            "OperatingCarrier": 1479,
+            "Duration": 130,
+            "FlightNumber": "161",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 28,
+            "OriginStation": 16626,
+            "DestinationStation": 13390,
+            "DepartureDateTime": "2019-12-28T17:50:00",
+            "ArrivalDateTime": "2019-12-28T19:30:00",
+            "Carrier": 1479,
+            "OperatingCarrier": 1479,
+            "Duration": 100,
+            "FlightNumber": "175",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 29,
+            "OriginStation": 16626,
+            "DestinationStation": 13489,
+            "DepartureDateTime": "2019-12-28T12:10:00",
+            "ArrivalDateTime": "2019-12-28T13:40:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1717,
+            "Duration": 90,
+            "FlightNumber": "42",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 30,
+            "OriginStation": 16626,
+            "DestinationStation": 9285,
+            "DepartureDateTime": "2019-12-28T15:50:00",
+            "ArrivalDateTime": "2019-12-28T18:25:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1717,
+            "Duration": 155,
+            "FlightNumber": "1126",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 31,
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "DepartureDateTime": "2019-12-28T17:20:00",
+            "ArrivalDateTime": "2019-12-28T19:05:00",
+            "Carrier": 1479,
+            "OperatingCarrier": 1479,
+            "Duration": 105,
+            "FlightNumber": "389",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 32,
+            "OriginStation": 16626,
+            "DestinationStation": 14567,
+            "DepartureDateTime": "2019-12-28T08:25:00",
+            "ArrivalDateTime": "2019-12-28T10:20:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1717,
+            "Duration": 115,
+            "FlightNumber": "1254",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 33,
+            "OriginStation": 16626,
+            "DestinationStation": 13242,
+            "DepartureDateTime": "2019-12-28T02:40:00",
+            "ArrivalDateTime": "2019-12-28T05:00:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1717,
+            "Duration": 140,
+            "FlightNumber": "1108",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 34,
+            "OriginStation": 13242,
+            "DestinationStation": 9285,
+            "DepartureDateTime": "2019-12-28T08:15:00",
+            "ArrivalDateTime": "2019-12-28T09:05:00",
+            "Carrier": 1812,
+            "OperatingCarrier": 1812,
+            "Duration": 50,
+            "FlightNumber": "297",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 35,
+            "OriginStation": 16626,
+            "DestinationStation": 13242,
+            "DepartureDateTime": "2019-12-28T17:30:00",
+            "ArrivalDateTime": "2019-12-28T19:50:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1717,
+            "Duration": 140,
+            "FlightNumber": "1106",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 36,
+            "OriginStation": 16626,
+            "DestinationStation": 12458,
+            "DepartureDateTime": "2019-12-28T07:40:00",
+            "ArrivalDateTime": "2019-12-28T10:40:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1717,
+            "Duration": 120,
+            "FlightNumber": "1296",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 37,
+            "OriginStation": 12458,
+            "DestinationStation": 14567,
+            "DepartureDateTime": "2019-12-28T15:10:00",
+            "ArrivalDateTime": "2019-12-28T17:40:00",
+            "Carrier": 1352,
+            "OperatingCarrier": 1352,
+            "Duration": 210,
+            "FlightNumber": "72",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 38,
+            "OriginStation": 16626,
+            "DestinationStation": 13489,
+            "DepartureDateTime": "2019-12-28T10:10:00",
+            "ArrivalDateTime": "2019-12-28T11:40:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1717,
+            "Duration": 90,
+            "FlightNumber": "14",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 39,
+            "OriginStation": 13489,
+            "DestinationStation": 9285,
+            "DepartureDateTime": "2019-12-28T13:10:00",
+            "ArrivalDateTime": "2019-12-28T16:20:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1094,
+            "Duration": 190,
+            "FlightNumber": "6563",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        },
+        {
+            "Id": 40,
+            "OriginStation": 16626,
+            "DestinationStation": 13489,
+            "DepartureDateTime": "2019-12-28T23:50:00",
+            "ArrivalDateTime": "2019-12-29T01:25:00",
+            "Carrier": 1717,
+            "OperatingCarrier": 1717,
+            "Duration": 95,
+            "FlightNumber": "46",
+            "JourneyMode": "Flight",
+            "Directionality": "Outbound"
+        }
+    ],
+    "Carriers": [
+        {
+            "Id": 1094,
+            "Code": "FV",
+            "Name": "Rossiya Airlines",
+            "ImageUrl": "https://s1.apideeplink.com/images/airlines/FV.png",
+            "DisplayCode": "FV"
+        },
+        {
+            "Id": 1717,
+            "Code": "SU",
+            "Name": "Aeroflot",
+            "ImageUrl": "https://s1.apideeplink.com/images/airlines/SU.png",
+            "DisplayCode": "SU"
+        },
+        {
+            "Id": 239,
+            "Code": "A4",
+            "Name": "Azimuth",
+            "ImageUrl": "https://s1.apideeplink.com/images/airlines/4_.png",
+            "DisplayCode": "A4"
+        },
+        {
+            "Id": 1479,
+            "Code": "N4",
+            "Name": "Nordwind Airlines",
+            "ImageUrl": "https://s1.apideeplink.com/images/airlines/NW.png",
+            "DisplayCode": "N4"
+        },
+        {
+            "Id": 1352,
+            "Code": "DP",
+            "Name": "Pobeda",
+            "ImageUrl": "https://s1.apideeplink.com/images/airlines/L8.png",
+            "DisplayCode": "DP"
+        },
+        {
+            "Id": 1231,
+            "Code": "IO",
+            "Name": "IrAero",
+            "ImageUrl": "https://s1.apideeplink.com/images/airlines/IO.png",
+            "DisplayCode": "IO"
+        },
+        {
+            "Id": 1812,
+            "Code": "UT",
+            "Name": "UTair",
+            "ImageUrl": "https://s1.apideeplink.com/images/airlines/UT.png",
+            "DisplayCode": "UT"
+        },
+        {
+            "Id": 962,
+            "Code": "D2",
+            "Name": "Severstal Aircompany ",
+            "ImageUrl": "https://s1.apideeplink.com/images/airlines/D2.png",
+            "DisplayCode": "D2"
+        }
+    ],
+    "Agents": [
+        {
+            "Id": 2370181,
+            "Name": "eDreams",
+            "ImageUrl": "https://s1.apideeplink.com/images/websites/edru.png",
+            "Status": "UpdatesComplete",
+            "OptimisedForMobile": false,
+            "Type": "TravelAgent"
+        },
+        {
+            "Id": 2074840,
+            "Name": "Biletix.ru",
+            "ImageUrl": "https://s1.apideeplink.com/images/websites/btix.png",
+            "Status": "UpdatesComplete",
+            "OptimisedForMobile": true,
+            "Type": "TravelAgent"
+        },
+        {
+            "Id": 3072121,
+            "Name": "Kupibilet",
+            "ImageUrl": "https://s1.apideeplink.com/images/websites/kubi.png",
+            "Status": "UpdatesComplete",
+            "OptimisedForMobile": false,
+            "Type": "TravelAgent"
+        },
+        {
+            "Id": 1943123,
+            "Name": "Aviakassa",
+            "ImageUrl": "https://s1.apideeplink.com/images/websites/akas.png",
+            "Status": "UpdatesComplete",
+            "OptimisedForMobile": true,
+            "Type": "TravelAgent"
+        },
+        {
+            "Id": 3934928,
+            "Name": "Kiwi.com",
+            "ImageUrl": "https://s1.apideeplink.com/images/websites/skyp.png",
+            "Status": "UpdatesComplete",
+            "OptimisedForMobile": true,
+            "Type": "TravelAgent"
+        },
+        {
+            "Id": 3957637,
+            "Name": "Supersaver.ru",
+            "ImageUrl": "https://s1.apideeplink.com/images/websites/suru.png",
+            "Status": "UpdatesComplete",
+            "OptimisedForMobile": false,
+            "Type": "TravelAgent"
+        },
+        {
+            "Id": 2160610,
+            "Name": "City.Travel",
+            "ImageUrl": "https://s1.apideeplink.com/images/websites/citr.png",
+            "Status": "UpdatesComplete",
+            "OptimisedForMobile": true,
+            "Type": "TravelAgent"
+        },
+        {
+            "Id": 3952406,
+            "Name": "S7 Airlines",
+            "ImageUrl": "https://s1.apideeplink.com/images/websites/ssev.png",
+            "Status": "UpdatesComplete",
+            "OptimisedForMobile": true,
+            "Type": "Airline"
+        },
+        {
+            "Id": 3513058,
+            "Name": "OneTwoTrip",
+            "ImageUrl": "https://s1.apideeplink.com/images/websites/ottr.png",
+            "Status": "UpdatesComplete",
+            "OptimisedForMobile": true,
+            "Type": "TravelAgent"
+        },
+        {
+            "Id": 4045189,
+            "Name": "Tickets.ru",
+            "ImageUrl": "https://s1.apideeplink.com/images/websites/tkru.png",
+            "Status": "UpdatesComplete",
+            "OptimisedForMobile": true,
+            "Type": "TravelAgent"
+        },
+        {
+            "Id": 3612079,
+            "Name": "Pososhok.ru",
+            "ImageUrl": "https://s1.apideeplink.com/images/websites/poso.png",
+            "Status": "UpdatesComplete",
+            "OptimisedForMobile": true,
+            "Type": "TravelAgent"
+        },
+        {
+            "Id": 1978061,
+            "Name": "Azimuth",
+            "ImageUrl": "https://s1.apideeplink.com/images/websites/azim.png",
+            "Status": "UpdatesComplete",
+            "OptimisedForMobile": true,
+            "Type": "Airline"
+        },
+        {
+            "Id": 2185861,
+            "Name": "Trip.com",
+            "ImageUrl": "https://s1.apideeplink.com/images/websites/ctru.png",
+            "Status": "UpdatesComplete",
+            "OptimisedForMobile": true,
+            "Type": "TravelAgent"
+        },
+        {
+            "Id": 4035973,
+            "Name": "Travelgenio",
+            "ImageUrl": "https://s1.apideeplink.com/images/websites/tgru.png",
+            "Status": "UpdatesComplete",
+            "OptimisedForMobile": true,
+            "Type": "TravelAgent"
+        },
+        {
+            "Id": 2167073,
+            "Name": "ClickAvia",
+            "ImageUrl": "https://s1.apideeplink.com/images/websites/clka.png",
+            "Status": "UpdatesComplete",
+            "OptimisedForMobile": true,
+            "Type": "TravelAgent"
+        },
+        {
+            "Id": 2499060,
+            "Name": "Aeroflot",
+            "ImageUrl": "https://s1.apideeplink.com/images/websites/flot.png",
+            "Status": "UpdatesComplete",
+            "OptimisedForMobile": true,
+            "Type": "Airline"
+        },
+        {
+            "Id": 3256687,
+            "Name": "MEGO.travel",
+            "ImageUrl": "https://s1.apideeplink.com/images/websites/mego.png",
+            "Status": "UpdatesComplete",
+            "OptimisedForMobile": true,
+            "Type": "TravelAgent"
+        },
+        {
+            "Id": 3847084,
+            "Name": "RusLine",
+            "ImageUrl": "https://s1.apideeplink.com/images/websites/rusl.png",
+            "Status": "UpdatesComplete",
+            "OptimisedForMobile": true,
+            "Type": "Airline"
+        },
+        {
+            "Id": 3526638,
+            "Name": "OZON.travel",
+            "ImageUrl": "https://s1.apideeplink.com/images/websites/ozon.png",
+            "Status": "UpdatesComplete",
+            "OptimisedForMobile": true,
+            "Type": "TravelAgent"
+        }
+    ],
+    "Places": [
+        {
+            "Id": 3969,
+            "ParentId": 191,
+            "Code": "KZN",
+            "Type": "City",
+            "Name": "Kazan"
+        },
+        {
+            "Id": 10434,
+            "ParentId": 1566,
+            "Code": "CEE",
+            "Type": "Airport",
+            "Name": "Cherepovets"
+        },
+        {
+            "Id": 17282,
+            "ParentId": 8011,
+            "Code": "UFA",
+            "Type": "Airport",
+            "Name": "Ufa"
+        },
+        {
+            "Id": 9285,
+            "ParentId": 329,
+            "Code": "AER",
+            "Type": "Airport",
+            "Name": "Sochi"
+        },
+        {
+            "Id": 3685,
+            "ParentId": 191,
+            "Code": "IJK",
+            "Type": "City",
+            "Name": "Izhevsk"
+        },
+        {
+            "Id": 14567,
+            "ParentId": 5494,
+            "Code": "NBC",
+            "Type": "Airport",
+            "Name": "Naberezhnye Chelny"
+        },
+        {
+            "Id": 329,
+            "ParentId": 191,
+            "Code": "AER",
+            "Type": "City",
+            "Name": "Sochi"
+        },
+        {
+            "Id": 12458,
+            "ParentId": 3685,
+            "Code": "IJK",
+            "Type": "Airport",
+            "Name": "Izhevsk"
+        },
+        {
+            "Id": 5227,
+            "ParentId": 191,
+            "Code": "MOW",
+            "Type": "City",
+            "Name": "Moscow"
+        },
+        {
+            "Id": 8011,
+            "ParentId": 191,
+            "Code": "UFA",
+            "Type": "City",
+            "Name": "Ufa"
+        },
+        {
+            "Id": 13390,
+            "ParentId": 3969,
+            "Code": "KZN",
+            "Type": "Airport",
+            "Name": "Kazan"
+        },
+        {
+            "Id": 13489,
+            "ParentId": 6171,
+            "Code": "LED",
+            "Type": "Airport",
+            "Name": "St Petersburg Pulkovo"
+        },
+        {
+            "Id": 16626,
+            "ParentId": 5227,
+            "Code": "SVO",
+            "Type": "Airport",
+            "Name": "Moscow Sheremetyevo"
+        },
+        {
+            "Id": 5494,
+            "ParentId": 191,
+            "Code": "NBC",
+            "Type": "City",
+            "Name": "Naberezhnye Chelny"
+        },
+        {
+            "Id": 13242,
+            "ParentId": 4285,
+            "Code": "KRR",
+            "Type": "Airport",
+            "Name": "Krasnodar"
+        },
+        {
+            "Id": 6171,
+            "ParentId": 191,
+            "Code": "LED",
+            "Type": "City",
+            "Name": "St Petersburg"
+        },
+        {
+            "Id": 4285,
+            "ParentId": 191,
+            "Code": "KRR",
+            "Type": "City",
+            "Name": "Krasnodar"
+        },
+        {
+            "Id": 1566,
+            "ParentId": 191,
+            "Code": "CEE",
+            "Type": "City",
+            "Name": "Cherepovets"
+        },
+        {
+            "Id": 191,
+            "Code": "RU",
+            "Type": "Country",
+            "Name": "Russia"
+        }
+    ],
+    "Currencies": [
+        {
+            "Code": "RUB",
+            "Symbol": "₽",
+            "ThousandsSeparator": " ",
+            "DecimalSeparator": ",",
+            "SymbolOnLeft": false,
+            "SpaceBetweenAmountAndSymbol": true,
+            "RoundingCoefficient": 0,
+            "DecimalDigits": 2
+        }
+    ]
+}
