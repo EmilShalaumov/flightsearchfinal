@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E41D4F4E239D020600D56787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4F4D239D020600D56787 /* AppDelegate.swift */; };
-		E41D4F50239D020600D56787 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4F4F239D020600D56787 /* ViewController.swift */; };
-		E41D4F53239D020600D56787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41D4F51239D020600D56787 /* Main.storyboard */; };
 		E41D4F55239D020A00D56787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41D4F54239D020A00D56787 /* Assets.xcassets */; };
 		E41D4F58239D020A00D56787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41D4F56239D020A00D56787 /* LaunchScreen.storyboard */; };
 		E41D4F63239D020A00D56787 /* FlightSearchFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4F62239D020A00D56787 /* FlightSearchFinalTests.swift */; };
@@ -46,6 +44,19 @@
 		E41D4FAD239D521600D56787 /* Leg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4F9A239D4C6500D56787 /* Leg.swift */; };
 		E41D4FAE239D521600D56787 /* PricingOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4F9C239D4C7900D56787 /* PricingOption.swift */; };
 		E41D4FAF239D521600D56787 /* Itinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4F9E239D4CA500D56787 /* Itinerary.swift */; };
+		E41D4FB1239D6A9500D56787 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FB0239D6A9500D56787 /* GradientView.swift */; };
+		E41D4FB3239D6B5D00D56787 /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FB2239D6B5D00D56787 /* AutoLayout.swift */; };
+		E41D4FB5239D6CA800D56787 /* InterfaceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FB4239D6CA800D56787 /* InterfaceFactory.swift */; };
+		E41D4FB7239D6E5400D56787 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FB6239D6E5400D56787 /* RoundedView.swift */; };
+		E41D4FB9239D6F0A00D56787 /* CustomNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FB8239D6F0A00D56787 /* CustomNavViewController.swift */; };
+		E41D4FBC239D79C000D56787 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FBB239D79C000D56787 /* SearchViewController.swift */; };
+		E41D4FBE239D79DB00D56787 /* SearchConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FBD239D79DB00D56787 /* SearchConfigurator.swift */; };
+		E41D4FC0239D79E900D56787 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FBF239D79E900D56787 /* SearchPresenter.swift */; };
+		E41D4FC2239D79F400D56787 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FC1239D79F400D56787 /* SearchRouter.swift */; };
+		E41D4FC5239D827800D56787 /* SearchAirportPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FC4239D827800D56787 /* SearchAirportPresenter.swift */; };
+		E41D4FC7239D895D00D56787 /* SearchAirportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FC6239D895D00D56787 /* SearchAirportViewController.swift */; };
+		E41D4FC9239EC23000D56787 /* SearchAirportConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FC8239EC23000D56787 /* SearchAirportConfigurator.swift */; };
+		E41D4FCB239EC81200D56787 /* AirportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FCA239EC81200D56787 /* AirportCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,8 +72,6 @@
 /* Begin PBXFileReference section */
 		E41D4F4A239D020600D56787 /* FlightSearchFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightSearchFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41D4F4D239D020600D56787 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E41D4F4F239D020600D56787 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E41D4F52239D020600D56787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E41D4F54239D020A00D56787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E41D4F57239D020A00D56787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E41D4F59239D020A00D56787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +97,19 @@
 		E41D4FA3239D4CFD00D56787 /* AllEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllEntities.swift; sourceTree = "<group>"; };
 		E41D4FA5239D4F8800D56787 /* ObjectWithId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectWithId.swift; sourceTree = "<group>"; };
 		E41D4FA7239D516B00D56787 /* tickets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tickets.json; sourceTree = "<group>"; };
+		E41D4FB0239D6A9500D56787 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		E41D4FB2239D6B5D00D56787 /* AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout.swift; sourceTree = "<group>"; };
+		E41D4FB4239D6CA800D56787 /* InterfaceFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceFactory.swift; sourceTree = "<group>"; };
+		E41D4FB6239D6E5400D56787 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		E41D4FB8239D6F0A00D56787 /* CustomNavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavViewController.swift; sourceTree = "<group>"; };
+		E41D4FBB239D79C000D56787 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		E41D4FBD239D79DB00D56787 /* SearchConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchConfigurator.swift; sourceTree = "<group>"; };
+		E41D4FBF239D79E900D56787 /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
+		E41D4FC1239D79F400D56787 /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
+		E41D4FC4239D827800D56787 /* SearchAirportPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAirportPresenter.swift; sourceTree = "<group>"; };
+		E41D4FC6239D895D00D56787 /* SearchAirportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAirportViewController.swift; sourceTree = "<group>"; };
+		E41D4FC8239EC23000D56787 /* SearchAirportConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAirportConfigurator.swift; sourceTree = "<group>"; };
+		E41D4FCA239EC81200D56787 /* AirportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +154,6 @@
 				E41D4F6D239D048400D56787 /* Core */,
 				E41D4F6E239D048A00D56787 /* Scenes */,
 				E41D4F4D239D020600D56787 /* AppDelegate.swift */,
-				E41D4F4F239D020600D56787 /* ViewController.swift */,
-				E41D4F51239D020600D56787 /* Main.storyboard */,
 				E41D4F54239D020A00D56787 /* Assets.xcassets */,
 				E41D4F56239D020A00D56787 /* LaunchScreen.storyboard */,
 				E41D4F59239D020A00D56787 /* Info.plist */,
@@ -166,6 +186,7 @@
 		E41D4F6E239D048A00D56787 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				E41D4FBA239D79AC00D56787 /* Search */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -206,6 +227,11 @@
 		E41D4F72239D054600D56787 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E41D4FB0239D6A9500D56787 /* GradientView.swift */,
+				E41D4FB2239D6B5D00D56787 /* AutoLayout.swift */,
+				E41D4FB4239D6CA800D56787 /* InterfaceFactory.swift */,
+				E41D4FB6239D6E5400D56787 /* RoundedView.swift */,
+				E41D4FB8239D6F0A00D56787 /* CustomNavViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -237,6 +263,29 @@
 				E41D4F8B239D2C7000D56787 /* Bundle.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E41D4FBA239D79AC00D56787 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E41D4FBD239D79DB00D56787 /* SearchConfigurator.swift */,
+				E41D4FBB239D79C000D56787 /* SearchViewController.swift */,
+				E41D4FBF239D79E900D56787 /* SearchPresenter.swift */,
+				E41D4FC1239D79F400D56787 /* SearchRouter.swift */,
+				E41D4FC3239D826700D56787 /* SearchAirport */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		E41D4FC3239D826700D56787 /* SearchAirport */ = {
+			isa = PBXGroup;
+			children = (
+				E41D4FC8239EC23000D56787 /* SearchAirportConfigurator.swift */,
+				E41D4FC6239D895D00D56787 /* SearchAirportViewController.swift */,
+				E41D4FC4239D827800D56787 /* SearchAirportPresenter.swift */,
+				E41D4FCA239EC81200D56787 /* AirportCell.swift */,
+			);
+			path = SearchAirport;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,7 +370,6 @@
 			files = (
 				E41D4F58239D020A00D56787 /* LaunchScreen.storyboard in Resources */,
 				E41D4F55239D020A00D56787 /* Assets.xcassets in Resources */,
-				E41D4F53239D020600D56787 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,21 +390,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				E41D4FA1239D4CD800D56787 /* Carrier.swift in Sources */,
+				E41D4FC9239EC23000D56787 /* SearchAirportConfigurator.swift in Sources */,
+				E41D4FC2239D79F400D56787 /* SearchRouter.swift in Sources */,
+				E41D4FBE239D79DB00D56787 /* SearchConfigurator.swift in Sources */,
 				E41D4F78239D192500D56787 /* Airport.swift in Sources */,
+				E41D4FCB239EC81200D56787 /* AirportCell.swift in Sources */,
 				E41D4F9F239D4CA500D56787 /* Itinerary.swift in Sources */,
 				E41D4FA4239D4CFD00D56787 /* AllEntities.swift in Sources */,
+				E41D4FC7239D895D00D56787 /* SearchAirportViewController.swift in Sources */,
 				E41D4F7F239D1A9500D56787 /* LocaleSettings.swift in Sources */,
-				E41D4F50239D020600D56787 /* ViewController.swift in Sources */,
+				E41D4FB1239D6A9500D56787 /* GradientView.swift in Sources */,
+				E41D4FB5239D6CA800D56787 /* InterfaceFactory.swift in Sources */,
+				E41D4FB7239D6E5400D56787 /* RoundedView.swift in Sources */,
 				E41D4F7A239D1A4300D56787 /* ApiRequest.swift in Sources */,
 				E41D4F74239D056C00D56787 /* NetworkService.swift in Sources */,
 				E41D4F83239D1ADF00D56787 /* CreateSessionParams.swift in Sources */,
+				E41D4FBC239D79C000D56787 /* SearchViewController.swift in Sources */,
+				E41D4FC0239D79E900D56787 /* SearchPresenter.swift in Sources */,
 				E41D4F81239D1AB300D56787 /* PlaceListParams.swift in Sources */,
 				E41D4F9D239D4C7900D56787 /* PricingOption.swift in Sources */,
+				E41D4FB3239D6B5D00D56787 /* AutoLayout.swift in Sources */,
+				E41D4FB9239D6F0A00D56787 /* CustomNavViewController.swift in Sources */,
 				E41D4F76239D183300D56787 /* FlightSearchAPI.swift in Sources */,
 				E41D4F4E239D020600D56787 /* AppDelegate.swift in Sources */,
 				E41D4FA6239D4F8800D56787 /* ObjectWithId.swift in Sources */,
 				E41D4F99239D4A3B00D56787 /* Place.swift in Sources */,
 				E41D4F9B239D4C6500D56787 /* Leg.swift in Sources */,
+				E41D4FC5239D827800D56787 /* SearchAirportPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,14 +456,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E41D4F51239D020600D56787 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E41D4F52239D020600D56787 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E41D4F56239D020A00D56787 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

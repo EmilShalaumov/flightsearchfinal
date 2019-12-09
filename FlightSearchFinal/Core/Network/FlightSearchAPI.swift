@@ -8,7 +8,12 @@
 
 import Foundation
 
-final class FlightSearchAPI {
+protocol FlightSearchAPIProtocol {
+    func listPlaces(by queryString: String, completion: @escaping([Airport]) -> Void)
+    func createSession(params: CreateSessionParams, completion: @escaping(String?) -> Void)
+}
+
+final class FlightSearchAPI: FlightSearchAPIProtocol {
     private let service: NetworkServiceProtocol
     private let apiRequest = API.shared
     private let decoder: JSONDecoder = {
