@@ -62,6 +62,7 @@
 		E41D4FD2239EDBBF00D56787 /* TicketsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FD1239EDBBF00D56787 /* TicketsConfigurator.swift */; };
 		E41D4FD4239EDBCE00D56787 /* TicketsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FD3239EDBCE00D56787 /* TicketsPresenter.swift */; };
 		E41D4FD6239EDCE600D56787 /* TicketsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FD5239EDCE600D56787 /* TicketsService.swift */; };
+		E451B0BD239EF584001A1A2A /* TicketStorage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E451B0BB239EF584001A1A2A /* TicketStorage.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,7 @@
 		E41D4FD1239EDBBF00D56787 /* TicketsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsConfigurator.swift; sourceTree = "<group>"; };
 		E41D4FD3239EDBCE00D56787 /* TicketsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsPresenter.swift; sourceTree = "<group>"; };
 		E41D4FD5239EDCE600D56787 /* TicketsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsService.swift; sourceTree = "<group>"; };
+		E451B0BC239EF584001A1A2A /* TicketStorage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TicketStorage.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +219,7 @@
 		E41D4F70239D051A00D56787 /* Local */ = {
 			isa = PBXGroup;
 			children = (
+				E451B0BB239EF584001A1A2A /* TicketStorage.xcdatamodeld */,
 			);
 			path = Local;
 			sourceTree = "<group>";
@@ -437,6 +440,7 @@
 				E41D4F81239D1AB300D56787 /* PlaceListParams.swift in Sources */,
 				E41D4F9D239D4C7900D56787 /* PricingOption.swift in Sources */,
 				E41D4FB3239D6B5D00D56787 /* AutoLayout.swift in Sources */,
+				E451B0BD239EF584001A1A2A /* TicketStorage.xcdatamodeld in Sources */,
 				E41D4FB9239D6F0A00D56787 /* CustomNavViewController.swift in Sources */,
 				E41D4F76239D183300D56787 /* FlightSearchAPI.swift in Sources */,
 				E41D4F4E239D020600D56787 /* AppDelegate.swift in Sources */,
@@ -716,6 +720,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E451B0BB239EF584001A1A2A /* TicketStorage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E451B0BC239EF584001A1A2A /* TicketStorage.xcdatamodel */,
+			);
+			currentVersion = E451B0BC239EF584001A1A2A /* TicketStorage.xcdatamodel */;
+			path = TicketStorage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E41D4F42239D020600D56787 /* Project object */;
 }
