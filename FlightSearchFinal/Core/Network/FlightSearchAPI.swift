@@ -11,6 +11,7 @@ import Foundation
 protocol FlightSearchAPIProtocol {
     func listPlaces(by queryString: String, completion: @escaping([Airport]) -> Void)
     func createSession(params: CreateSessionParams, completion: @escaping(String?) -> Void)
+    func pollSessionResults(with key: String, completion: @escaping(AllEntities?) -> Void)
 }
 
 final class FlightSearchAPI: FlightSearchAPIProtocol {
@@ -136,6 +137,7 @@ final class FlightSearchAPI: FlightSearchAPIProtocol {
                 entities.legs = self.getLegs(from: jsonDict["Legs"])
                 entities.itineraries = self.getItineraries(from: jsonDict["Itineraries"])
                 completion(entities)
+                return
             case .failure(let error):
                 print("Poll session result error: \(error)")
             }

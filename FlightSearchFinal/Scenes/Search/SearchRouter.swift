@@ -14,12 +14,12 @@ protocol SearchRouterProtocol {
 }
 
 class SearchRouter: SearchRouterProtocol {
-    private var view: SearchViewControllerProtocol
+    private var view: SearchViewController
     
     /// SearchRouter initialization
     ///
     /// - Parameter view: Search view controller
-    init(view: SearchViewControllerProtocol) {
+    init(view: SearchViewController) {
         self.view = view
     }
     
@@ -40,6 +40,11 @@ class SearchRouter: SearchRouterProtocol {
     ///
     /// - Parameter key: Session key
     func presentTickets(with key: String) {
-        
+        DispatchQueue.main.async {
+            let service = TicketsFromAPI(key: key)
+            let configurator = TicketsConfigurator(service: service)
+            let ticketsViewController = TicketsViewController(configurator: configurator)
+            self.view.navigationController?.pushViewController(ticketsViewController, animated: true)
+        }
     }
 }

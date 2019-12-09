@@ -57,6 +57,11 @@
 		E41D4FC7239D895D00D56787 /* SearchAirportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FC6239D895D00D56787 /* SearchAirportViewController.swift */; };
 		E41D4FC9239EC23000D56787 /* SearchAirportConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FC8239EC23000D56787 /* SearchAirportConfigurator.swift */; };
 		E41D4FCB239EC81200D56787 /* AirportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FCA239EC81200D56787 /* AirportCell.swift */; };
+		E41D4FCE239EDA6E00D56787 /* TicketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FCD239EDA6E00D56787 /* TicketCell.swift */; };
+		E41D4FD0239EDB7200D56787 /* TicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FCF239EDB7200D56787 /* TicketsViewController.swift */; };
+		E41D4FD2239EDBBF00D56787 /* TicketsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FD1239EDBBF00D56787 /* TicketsConfigurator.swift */; };
+		E41D4FD4239EDBCE00D56787 /* TicketsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FD3239EDBCE00D56787 /* TicketsPresenter.swift */; };
+		E41D4FD6239EDCE600D56787 /* TicketsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FD5239EDCE600D56787 /* TicketsService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +115,11 @@
 		E41D4FC6239D895D00D56787 /* SearchAirportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAirportViewController.swift; sourceTree = "<group>"; };
 		E41D4FC8239EC23000D56787 /* SearchAirportConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAirportConfigurator.swift; sourceTree = "<group>"; };
 		E41D4FCA239EC81200D56787 /* AirportCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirportCell.swift; sourceTree = "<group>"; };
+		E41D4FCD239EDA6E00D56787 /* TicketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketCell.swift; sourceTree = "<group>"; };
+		E41D4FCF239EDB7200D56787 /* TicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewController.swift; sourceTree = "<group>"; };
+		E41D4FD1239EDBBF00D56787 /* TicketsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsConfigurator.swift; sourceTree = "<group>"; };
+		E41D4FD3239EDBCE00D56787 /* TicketsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsPresenter.swift; sourceTree = "<group>"; };
+		E41D4FD5239EDCE600D56787 /* TicketsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +189,7 @@
 				E41D4F6F239D050A00D56787 /* Network */,
 				E41D4F71239D052500D56787 /* Model */,
 				E41D4F72239D054600D56787 /* View */,
+				E41D4FD5239EDCE600D56787 /* TicketsService.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -186,6 +197,7 @@
 		E41D4F6E239D048A00D56787 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				E41D4FCC239EDA1B00D56787 /* Tickets */,
 				E41D4FBA239D79AC00D56787 /* Search */,
 			);
 			path = Scenes;
@@ -286,6 +298,17 @@
 				E41D4FCA239EC81200D56787 /* AirportCell.swift */,
 			);
 			path = SearchAirport;
+			sourceTree = "<group>";
+		};
+		E41D4FCC239EDA1B00D56787 /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				E41D4FD1239EDBBF00D56787 /* TicketsConfigurator.swift */,
+				E41D4FCF239EDB7200D56787 /* TicketsViewController.swift */,
+				E41D4FD3239EDBCE00D56787 /* TicketsPresenter.swift */,
+				E41D4FCD239EDA6E00D56787 /* TicketCell.swift */,
+			);
+			path = Tickets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -389,11 +412,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41D4FD4239EDBCE00D56787 /* TicketsPresenter.swift in Sources */,
 				E41D4FA1239D4CD800D56787 /* Carrier.swift in Sources */,
 				E41D4FC9239EC23000D56787 /* SearchAirportConfigurator.swift in Sources */,
 				E41D4FC2239D79F400D56787 /* SearchRouter.swift in Sources */,
 				E41D4FBE239D79DB00D56787 /* SearchConfigurator.swift in Sources */,
 				E41D4F78239D192500D56787 /* Airport.swift in Sources */,
+				E41D4FD2239EDBBF00D56787 /* TicketsConfigurator.swift in Sources */,
 				E41D4FCB239EC81200D56787 /* AirportCell.swift in Sources */,
 				E41D4F9F239D4CA500D56787 /* Itinerary.swift in Sources */,
 				E41D4FA4239D4CFD00D56787 /* AllEntities.swift in Sources */,
@@ -401,10 +426,12 @@
 				E41D4F7F239D1A9500D56787 /* LocaleSettings.swift in Sources */,
 				E41D4FB1239D6A9500D56787 /* GradientView.swift in Sources */,
 				E41D4FB5239D6CA800D56787 /* InterfaceFactory.swift in Sources */,
+				E41D4FD6239EDCE600D56787 /* TicketsService.swift in Sources */,
 				E41D4FB7239D6E5400D56787 /* RoundedView.swift in Sources */,
 				E41D4F7A239D1A4300D56787 /* ApiRequest.swift in Sources */,
 				E41D4F74239D056C00D56787 /* NetworkService.swift in Sources */,
 				E41D4F83239D1ADF00D56787 /* CreateSessionParams.swift in Sources */,
+				E41D4FD0239EDB7200D56787 /* TicketsViewController.swift in Sources */,
 				E41D4FBC239D79C000D56787 /* SearchViewController.swift in Sources */,
 				E41D4FC0239D79E900D56787 /* SearchPresenter.swift in Sources */,
 				E41D4F81239D1AB300D56787 /* PlaceListParams.swift in Sources */,
@@ -414,6 +441,7 @@
 				E41D4F76239D183300D56787 /* FlightSearchAPI.swift in Sources */,
 				E41D4F4E239D020600D56787 /* AppDelegate.swift in Sources */,
 				E41D4FA6239D4F8800D56787 /* ObjectWithId.swift in Sources */,
+				E41D4FCE239EDA6E00D56787 /* TicketCell.swift in Sources */,
 				E41D4F99239D4A3B00D56787 /* Place.swift in Sources */,
 				E41D4F9B239D4C6500D56787 /* Leg.swift in Sources */,
 				E41D4FC5239D827800D56787 /* SearchAirportPresenter.swift in Sources */,
