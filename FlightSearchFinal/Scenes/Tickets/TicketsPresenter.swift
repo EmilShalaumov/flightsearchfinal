@@ -26,10 +26,16 @@ class TicketsPresenter: TicketsPresenterProtocol {
         return formatter
     }()
     
+    /// Return count of tickets currently received from api / storage
     var ticketsCount: Int {
         return entities.itineraries.count
     }
     
+    /// Initializes presenter for Tickets scene
+    ///
+    /// - Parameters:
+    ///   - view: Tickets view controller
+    ///   - service: API / Storage to get tickets data
     init(view: TicketsViewControllerProtocol, service: TicketsServiceProtocol) {
         self.view = view
         self.service = service
@@ -37,6 +43,7 @@ class TicketsPresenter: TicketsPresenterProtocol {
     
     // MARK: - Protocol methods
     
+    /// Load tickets from storage / API
     func loadTickets() {
         service.getTickets { entities in
             self.entities = entities ?? AllEntities()
@@ -44,6 +51,11 @@ class TicketsPresenter: TicketsPresenterProtocol {
         }
     }
     
+    /// Configure Ticket table view cell
+    ///
+    /// - Parameters:
+    ///   - cell: Ticket representation table view cell
+    ///   - index: number of ticket / cell number
     func configureCell(_ cell: TicketCell, index: Int) {
         if 1 == 1 {
             let ticket = entities.itineraries[index]

@@ -17,10 +17,14 @@ class TicketsViewController: UITableViewController, TicketsViewControllerProtoco
     private let interface = InterfaceFactory()
     private let configurator: TicketsConfigurator
     
+    /// Tickets presenter reference
     var presenter: TicketsPresenterProtocol?
     
     // MARK: - Initializers
     
+    /// Initializes tickets scene with predefined get data service in configurator
+    ///
+    /// - Parameter configurator: Tickets scene configurator
     init(configurator: TicketsConfigurator) {
         self.configurator = configurator
         
@@ -55,6 +59,7 @@ class TicketsViewController: UITableViewController, TicketsViewControllerProtoco
 
     // MARK: - Protocol method
     
+    /// Call from presenter to reload table view data
     func reloadTableViewData() {
         DispatchQueue.main.async {
             self.tableView.reloadData()
