@@ -14,8 +14,14 @@ protocol TicketPersistenceProtocol {
 }
 
 class TicketPersistence: TicketPersistenceProtocol, TicketsServiceProtocol {
-    let stack = CoreDataStack()
+    private let stack = CoreDataStack()
     
+    /// Save ticket into memory
+    ///
+    /// - Parameters:
+    ///   - entities: AllEntities structure
+    ///   - index: ticket index
+    ///   - completion: Returns true if ticket was successfully saved, otherwise returns false
     func saveTicket(entities: AllEntities, index: Int, completion: @escaping(Bool) -> Void) {
         let itinerary = entities.itineraries[index]
         stack.persistentContainer.performBackgroundTask { context in
@@ -64,6 +70,9 @@ class TicketPersistence: TicketPersistenceProtocol, TicketsServiceProtocol {
         }
     }
     
+    /// Fetches all tickets stored in memory
+    ///
+    /// - Parameter completion: returns AllEntities structure with populated parameters
     func getTickets(completion: @escaping (AllEntities?) -> Void) {
         stack.persistentContainer.performBackgroundTask { context in
             var entities = AllEntities()

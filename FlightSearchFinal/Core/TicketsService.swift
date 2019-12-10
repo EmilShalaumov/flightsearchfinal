@@ -16,6 +16,9 @@ class TicketsFromAPI: TicketsServiceProtocol {
     private let key: String
     private let api: FlightSearchAPIProtocol
     
+    /// Initializes TicketsFromAPI service to get tickets from API
+    ///
+    /// - Parameter key: Session key
     init(key: String) {
         self.key = key
         
@@ -23,6 +26,9 @@ class TicketsFromAPI: TicketsServiceProtocol {
         self.api = FlightSearchAPI(with: network)
     }
     
+    /// Calls to get tickets from API
+    ///
+    /// - Parameter completion: Returns AllEntities structure with populated components
     func getTickets(completion: @escaping (AllEntities?) -> Void) {
         api.pollSessionResults(with: key) { tickets in
             completion(tickets)
