@@ -22,7 +22,8 @@ class TicketsConfigurator {
     ///
     /// - Parameter view: Tickets view controller
     func configure(view: TicketsViewController) {
-        let presenter = TicketsPresenter(view: view, service: ticketService)
+        let persistence = TicketPersistence()
+        let presenter = TicketsPresenter(view: view, service: ticketService, persistence: persistence)
         
         view.presenter = presenter
     }

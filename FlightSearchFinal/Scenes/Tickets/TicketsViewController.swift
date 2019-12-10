@@ -89,7 +89,7 @@ extension TicketsViewController: UITableViewDragDelegate {
         }
         
         let itemProvider = NSItemProvider(item: stringData as NSData, typeIdentifier: kUTTypePlainText as String)
-        session.localContext = UInt(indexPath.row)
+        session.localContext = indexPath.row
         let dragItem = UIDragItem(itemProvider: itemProvider)
         
         return [dragItem]
@@ -121,13 +121,14 @@ extension TicketsViewController: UIDropInteractionDelegate {
     
     func dropInteraction(_ interaction: UIDropInteraction, performDrop session: UIDropSession) {
         if session.hasItemsConforming(toTypeIdentifiers: [kUTTypePlainText as String]) {
-            session.loadObjects(ofClass: NSString.self) { (items) in
+            session.loadObjects(ofClass: NSString.self) { [weak self] items in
                 guard let _ = items.first as? String else {
                     return
                 }
                 
-                if let index = session.localDragSession?.localContext as? UInt {
+                if let index = session.localDragSession?.localContext as? Int {
                     print("Cell \(index) performed to drop")
+                    self?.presenter?.ticketCellDropped(with: index)
                 }
             }
         }
