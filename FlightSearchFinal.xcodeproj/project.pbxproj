@@ -63,6 +63,12 @@
 		E41D4FD4239EDBCE00D56787 /* TicketsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FD3239EDBCE00D56787 /* TicketsPresenter.swift */; };
 		E41D4FD6239EDCE600D56787 /* TicketsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FD5239EDCE600D56787 /* TicketsService.swift */; };
 		E451B0BD239EF584001A1A2A /* TicketStorage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E451B0BB239EF584001A1A2A /* TicketStorage.xcdatamodeld */; };
+		E451B0CF239EFBF0001A1A2A /* MOItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0CE239EFBF0001A1A2A /* MOItinerary.swift */; };
+		E451B0D1239EFCC5001A1A2A /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0D0239EFCC5001A1A2A /* CoreDataStack.swift */; };
+		E451B0D323A01745001A1A2A /* TicketPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0D223A01745001A1A2A /* TicketPersistence.swift */; };
+		E451B0D523A01FBC001A1A2A /* MOPricingOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0D423A01FBC001A1A2A /* MOPricingOption.swift */; };
+		E451B0D723A02A45001A1A2A /* MOPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0D623A02A45001A1A2A /* MOPlace.swift */; };
+		E451B0D923A02D1F001A1A2A /* MOLeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0D823A02D1F001A1A2A /* MOLeg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +128,12 @@
 		E41D4FD3239EDBCE00D56787 /* TicketsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsPresenter.swift; sourceTree = "<group>"; };
 		E41D4FD5239EDCE600D56787 /* TicketsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsService.swift; sourceTree = "<group>"; };
 		E451B0BC239EF584001A1A2A /* TicketStorage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TicketStorage.xcdatamodel; sourceTree = "<group>"; };
+		E451B0CE239EFBF0001A1A2A /* MOItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOItinerary.swift; sourceTree = "<group>"; };
+		E451B0D0239EFCC5001A1A2A /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		E451B0D223A01745001A1A2A /* TicketPersistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketPersistence.swift; sourceTree = "<group>"; };
+		E451B0D423A01FBC001A1A2A /* MOPricingOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOPricingOption.swift; sourceTree = "<group>"; };
+		E451B0D623A02A45001A1A2A /* MOPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOPlace.swift; sourceTree = "<group>"; };
+		E451B0D823A02D1F001A1A2A /* MOLeg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOLeg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +232,9 @@
 			isa = PBXGroup;
 			children = (
 				E451B0BB239EF584001A1A2A /* TicketStorage.xcdatamodeld */,
+				E451B0D0239EFCC5001A1A2A /* CoreDataStack.swift */,
+				E451B0D223A01745001A1A2A /* TicketPersistence.swift */,
+				E451B0CD239EFBD5001A1A2A /* Entities */,
 			);
 			path = Local;
 			sourceTree = "<group>";
@@ -312,6 +327,17 @@
 				E41D4FCD239EDA6E00D56787 /* TicketCell.swift */,
 			);
 			path = Tickets;
+			sourceTree = "<group>";
+		};
+		E451B0CD239EFBD5001A1A2A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E451B0CE239EFBF0001A1A2A /* MOItinerary.swift */,
+				E451B0D423A01FBC001A1A2A /* MOPricingOption.swift */,
+				E451B0D623A02A45001A1A2A /* MOPlace.swift */,
+				E451B0D823A02D1F001A1A2A /* MOLeg.swift */,
+			);
+			path = Entities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -418,6 +444,8 @@
 				E41D4FD4239EDBCE00D56787 /* TicketsPresenter.swift in Sources */,
 				E41D4FA1239D4CD800D56787 /* Carrier.swift in Sources */,
 				E41D4FC9239EC23000D56787 /* SearchAirportConfigurator.swift in Sources */,
+				E451B0D723A02A45001A1A2A /* MOPlace.swift in Sources */,
+				E451B0D1239EFCC5001A1A2A /* CoreDataStack.swift in Sources */,
 				E41D4FC2239D79F400D56787 /* SearchRouter.swift in Sources */,
 				E41D4FBE239D79DB00D56787 /* SearchConfigurator.swift in Sources */,
 				E41D4F78239D192500D56787 /* Airport.swift in Sources */,
@@ -429,14 +457,17 @@
 				E41D4F7F239D1A9500D56787 /* LocaleSettings.swift in Sources */,
 				E41D4FB1239D6A9500D56787 /* GradientView.swift in Sources */,
 				E41D4FB5239D6CA800D56787 /* InterfaceFactory.swift in Sources */,
+				E451B0D523A01FBC001A1A2A /* MOPricingOption.swift in Sources */,
 				E41D4FD6239EDCE600D56787 /* TicketsService.swift in Sources */,
 				E41D4FB7239D6E5400D56787 /* RoundedView.swift in Sources */,
+				E451B0D323A01745001A1A2A /* TicketPersistence.swift in Sources */,
 				E41D4F7A239D1A4300D56787 /* ApiRequest.swift in Sources */,
 				E41D4F74239D056C00D56787 /* NetworkService.swift in Sources */,
 				E41D4F83239D1ADF00D56787 /* CreateSessionParams.swift in Sources */,
 				E41D4FD0239EDB7200D56787 /* TicketsViewController.swift in Sources */,
 				E41D4FBC239D79C000D56787 /* SearchViewController.swift in Sources */,
 				E41D4FC0239D79E900D56787 /* SearchPresenter.swift in Sources */,
+				E451B0D923A02D1F001A1A2A /* MOLeg.swift in Sources */,
 				E41D4F81239D1AB300D56787 /* PlaceListParams.swift in Sources */,
 				E41D4F9D239D4C7900D56787 /* PricingOption.swift in Sources */,
 				E41D4FB3239D6B5D00D56787 /* AutoLayout.swift in Sources */,
@@ -449,6 +480,7 @@
 				E41D4F99239D4A3B00D56787 /* Place.swift in Sources */,
 				E41D4F9B239D4C6500D56787 /* Leg.swift in Sources */,
 				E41D4FC5239D827800D56787 /* SearchAirportPresenter.swift in Sources */,
+				E451B0CF239EFBF0001A1A2A /* MOItinerary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

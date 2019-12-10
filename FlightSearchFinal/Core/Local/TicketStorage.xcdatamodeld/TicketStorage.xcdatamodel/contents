@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14492.1" systemVersion="19A602" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+    <entity name="Itinerary" representedClassName=".MOItinerary" syncable="YES">
+        <attribute name="inboundLegId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="outboundLegId" attributeType="String" syncable="YES"/>
+        <relationship name="pricingOptions" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="PricingOption" inverseName="itinerary" inverseEntity="PricingOption" syncable="YES"/>
+    </entity>
+    <entity name="Leg" representedClassName=".MOLeg" syncable="YES">
+        <attribute name="arrival" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="departure" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="destinationStation" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="originStation" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="stops" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="Place" representedClassName=".MOPlace" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PricingOption" representedClassName=".MOPricingOption" syncable="YES">
+        <attribute name="price" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="itinerary" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Itinerary" inverseName="pricingOptions" inverseEntity="Itinerary" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Itinerary" positionX="-54" positionY="-9" width="128" height="90"/>
+        <element name="PricingOption" positionX="-36" positionY="27" width="128" height="75"/>
+        <element name="Place" positionX="-18" positionY="63" width="128" height="90"/>
+        <element name="Leg" positionX="0" positionY="90" width="128" height="150"/>
+    </elements>
 </model>

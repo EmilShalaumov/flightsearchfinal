@@ -22,7 +22,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let searchNavViewController = CustomNavViewController(rootViewController: searchViewController)
         searchViewController.tabBarItem.image = UIImage(named: "FlightsItem")
         
-        window?.rootViewController = searchNavViewController
+        let savedService = TicketPersistence()
+        let savedConfigurator = TicketsConfigurator(service: savedService)
+        let savedViewController = TicketsViewController(configurator: savedConfigurator)
+        savedViewController.title = "Favorites"
+        let savedNavViewController = CustomNavViewController(rootViewController: savedViewController)
+        savedNavViewController.tabBarItem.image = UIImage(named: "FavoritesItem")
+        
+        let tabBarController = UITabBarController()
+        tabBarController.viewControllers = [searchNavViewController, savedNavViewController]
+        
+        window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()       
         
         return true

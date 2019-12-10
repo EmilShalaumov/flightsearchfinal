@@ -12,11 +12,13 @@ protocol TicketsPresenterProtocol {
     var ticketsCount: Int { get }
     func loadTickets()
     func configureCell(_ cell: TicketCell, index: Int)
+    func ticketCellDropped(with index: Int)
 }
 
 class TicketsPresenter: TicketsPresenterProtocol {
     private weak var view: TicketsViewControllerProtocol?
     private let service: TicketsServiceProtocol
+    private let persistence: TicketPersistenceProtocol?
     
     private var entities = AllEntities()
     
@@ -36,9 +38,10 @@ class TicketsPresenter: TicketsPresenterProtocol {
     /// - Parameters:
     ///   - view: Tickets view controller
     ///   - service: API / Storage to get tickets data
-    init(view: TicketsViewControllerProtocol, service: TicketsServiceProtocol) {
+    init(view: TicketsViewControllerProtocol, service: TicketsServiceProtocol, persistence: TicketPersistenceProtocol? = nil) {
         self.view = view
         self.service = service
+        self.persistence = persistence
     }
     
     // MARK: - Protocol methods
@@ -78,6 +81,25 @@ class TicketsPresenter: TicketsPresenterProtocol {
             }
             
             cell.price.text = "\(Int(ticket.pricingOptions[0].price)) ₽"
+        }
+    }
+    
+    func ticketCellDropped(with index: Int) {
+        persistence?.saveTicket(entities: entities, index: index) { result in
+            if result {
+                print("Success")
+                let path = FileManager
+                    .default
+                    .urls(for: .applicationSupportDirectory, in: .userDomainMask)
+                    .last?
+                    .absoluteString
+                    .replacingOccurrences(of: "file://", with: "")
+                    .removingPercentEncoding
+                
+                print("DB path: \(path ?? "Not found")")
+            } else {
+                print("Failure")
+            }
         }
     }
     
