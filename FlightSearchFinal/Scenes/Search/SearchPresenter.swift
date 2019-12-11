@@ -65,7 +65,8 @@ class SearchPresenter: SearchPresenterProtocol, SearchAirportPresenterDelegate {
     func searchButtonTapped() {
         api.createSession(params: createSessionParams) { [weak self] key in
             if let key = key {
-                self?.router.presentTickets(with: key)
+                let title = self?.setTitleForTicketsScene() ?? ""
+                self?.router.presentTickets(with: key, title: title)
             } else {
                 self?.view?.showServerErrorAlert()
             }
@@ -86,5 +87,12 @@ class SearchPresenter: SearchPresenterProtocol, SearchAirportPresenterDelegate {
             createSessionParams.destinationPlace = place
         }
         view?.updateFields(with: createSessionParams)
+    }
+    
+    private func setTitleForTicketsScene() -> String {
+        let originCode = String((createSessionParams.originPlace?.placeId ?? "").dropLast(4))
+        let destCode = String((createSessionParams.destinationPlace?.placeId ?? "").dropLast(4))
+        
+        return "\(originCode)-\(destCode)"
     }
 }

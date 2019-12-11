@@ -16,6 +16,7 @@ protocol TicketsViewControllerProtocol: class {
 class TicketsViewController: UITableViewController, TicketsViewControllerProtocol {
     private let interface = InterfaceFactory()
     private let configurator: TicketsConfigurator
+    private let titleText: String
     
     /// Tickets presenter reference
     var presenter: TicketsPresenterProtocol?
@@ -25,8 +26,9 @@ class TicketsViewController: UITableViewController, TicketsViewControllerProtoco
     /// Initializes tickets scene with predefined get data service in configurator
     ///
     /// - Parameter configurator: Tickets scene configurator
-    init(configurator: TicketsConfigurator) {
+    init(configurator: TicketsConfigurator, title: String) {
         self.configurator = configurator
+        self.titleText = title
         
         super.init(nibName: nil, bundle: nil)
     }
@@ -43,8 +45,15 @@ class TicketsViewController: UITableViewController, TicketsViewControllerProtoco
         configurator.configure(view: self)
 
         view.backgroundColor = interface.lineColor
+        title = titleText
         
         setupTableView()
+        presenter?.loadTickets()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
         presenter?.loadTickets()
     }
     

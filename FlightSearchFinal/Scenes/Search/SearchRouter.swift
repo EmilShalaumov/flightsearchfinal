@@ -10,7 +10,7 @@ import Foundation
 
 protocol SearchRouterProtocol {
     func presentSearchAirport(delegate: SearchAirportPresenterDelegate, img: String, tag: Int)
-    func presentTickets(with key: String)
+    func presentTickets(with key: String, title: String)
 }
 
 class SearchRouter: SearchRouterProtocol {
@@ -39,11 +39,11 @@ class SearchRouter: SearchRouterProtocol {
     /// Show tickets list scene
     ///
     /// - Parameter key: Session key
-    func presentTickets(with key: String) {
+    func presentTickets(with key: String, title: String) {
         DispatchQueue.main.async {
             let service = TicketsFromAPI(key: key)
             let configurator = TicketsConfigurator(service: service)
-            let ticketsViewController = TicketsViewController(configurator: configurator)
+            let ticketsViewController = TicketsViewController(configurator: configurator, title: title)
             self.view.navigationController?.pushViewController(ticketsViewController, animated: true)
         }
     }

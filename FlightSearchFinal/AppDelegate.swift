@@ -24,8 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let savedService = TicketPersistence()
         let savedConfigurator = TicketsConfigurator(service: savedService)
-        let savedViewController = TicketsViewController(configurator: savedConfigurator)
-        savedViewController.title = "Favorites"
+        let savedViewController = TicketsViewController(configurator: savedConfigurator, title: "Favorites")
         let savedNavViewController = CustomNavViewController(rootViewController: savedViewController)
         savedNavViewController.tabBarItem.image = UIImage(named: "FavoritesItem")
         
