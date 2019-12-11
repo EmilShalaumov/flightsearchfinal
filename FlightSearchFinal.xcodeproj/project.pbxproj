@@ -10,7 +10,6 @@
 		E41D4F4E239D020600D56787 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4F4D239D020600D56787 /* AppDelegate.swift */; };
 		E41D4F55239D020A00D56787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E41D4F54239D020A00D56787 /* Assets.xcassets */; };
 		E41D4F58239D020A00D56787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E41D4F56239D020A00D56787 /* LaunchScreen.storyboard */; };
-		E41D4F63239D020A00D56787 /* FlightSearchFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4F62239D020A00D56787 /* FlightSearchFinalTests.swift */; };
 		E41D4F74239D056C00D56787 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4F73239D056C00D56787 /* NetworkService.swift */; };
 		E41D4F76239D183300D56787 /* FlightSearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4F75239D183300D56787 /* FlightSearchAPI.swift */; };
 		E41D4F78239D192500D56787 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4F77239D192500D56787 /* Airport.swift */; };
@@ -18,7 +17,6 @@
 		E41D4F7F239D1A9500D56787 /* LocaleSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4F7E239D1A9500D56787 /* LocaleSettings.swift */; };
 		E41D4F81239D1AB300D56787 /* PlaceListParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4F80239D1AB300D56787 /* PlaceListParams.swift */; };
 		E41D4F83239D1ADF00D56787 /* CreateSessionParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4F82239D1ADF00D56787 /* CreateSessionParams.swift */; };
-		E41D4F87239D277100D56787 /* FlightSearchApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4F86239D277100D56787 /* FlightSearchApiTests.swift */; };
 		E41D4F8A239D28BC00D56787 /* NetworkServiceStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4F89239D28BC00D56787 /* NetworkServiceStub.swift */; };
 		E41D4F8C239D2C7000D56787 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4F8B239D2C7000D56787 /* Bundle.swift */; };
 		E41D4F8F239D2FF400D56787 /* FlightSearchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4F75239D183300D56787 /* FlightSearchAPI.swift */; };
@@ -69,6 +67,38 @@
 		E451B0D523A01FBC001A1A2A /* MOPricingOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0D423A01FBC001A1A2A /* MOPricingOption.swift */; };
 		E451B0D723A02A45001A1A2A /* MOPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0D623A02A45001A1A2A /* MOPlace.swift */; };
 		E451B0D923A02D1F001A1A2A /* MOLeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0D823A02D1F001A1A2A /* MOLeg.swift */; };
+		E451B0DD23A148D8001A1A2A /* FlightSearchApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0DC23A148D8001A1A2A /* FlightSearchApiTests.swift */; };
+		E451B0DF23A14907001A1A2A /* TicketsPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0DE23A14907001A1A2A /* TicketsPresenterTests.swift */; };
+		E451B0E123A149C1001A1A2A /* TicketsFromAPIStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0E023A149C1001A1A2A /* TicketsFromAPIStub.swift */; };
+		E451B0E323A14A4C001A1A2A /* TicketsViewControllerStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0E223A14A4C001A1A2A /* TicketsViewControllerStub.swift */; };
+		E451B0E423A14B28001A1A2A /* TicketsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FD5239EDCE600D56787 /* TicketsService.swift */; };
+		E451B0E523A14B81001A1A2A /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0D0239EFCC5001A1A2A /* CoreDataStack.swift */; };
+		E451B0E623A14B81001A1A2A /* TicketPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0D223A01745001A1A2A /* TicketPersistence.swift */; };
+		E451B0E723A14C66001A1A2A /* MOItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0CE239EFBF0001A1A2A /* MOItinerary.swift */; };
+		E451B0E823A14C66001A1A2A /* MOPricingOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0D423A01FBC001A1A2A /* MOPricingOption.swift */; };
+		E451B0E923A14C66001A1A2A /* MOPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0D623A02A45001A1A2A /* MOPlace.swift */; };
+		E451B0EA23A14C66001A1A2A /* MOLeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0D823A02D1F001A1A2A /* MOLeg.swift */; };
+		E451B0EB23A14CB6001A1A2A /* TicketsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FD3239EDBCE00D56787 /* TicketsPresenter.swift */; };
+		E451B0EC23A14CC9001A1A2A /* TicketsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FD1239EDBBF00D56787 /* TicketsConfigurator.swift */; };
+		E451B0ED23A14CC9001A1A2A /* TicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FCF239EDB7200D56787 /* TicketsViewController.swift */; };
+		E451B0EE23A14CCC001A1A2A /* TicketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FCD239EDA6E00D56787 /* TicketCell.swift */; };
+		E451B0F223A15450001A1A2A /* SearchPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0F123A15450001A1A2A /* SearchPresenterTests.swift */; };
+		E451B0F423A154A0001A1A2A /* SearchViewControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0F323A154A0001A1A2A /* SearchViewControllerMock.swift */; };
+		E451B0F523A154CC001A1A2A /* SearchConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FBD239D79DB00D56787 /* SearchConfigurator.swift */; };
+		E451B0F623A154CC001A1A2A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FBB239D79C000D56787 /* SearchViewController.swift */; };
+		E451B0F723A154CC001A1A2A /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FBF239D79E900D56787 /* SearchPresenter.swift */; };
+		E451B0F823A154CC001A1A2A /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FC1239D79F400D56787 /* SearchRouter.swift */; };
+		E451B0FA23A15591001A1A2A /* SearchRouterStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0F923A15591001A1A2A /* SearchRouterStub.swift */; };
+		E451B0FC23A155E3001A1A2A /* FlightSearchAPIStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451B0FB23A155E3001A1A2A /* FlightSearchAPIStub.swift */; };
+		E451B10123A15915001A1A2A /* SearchAirportConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FC8239EC23000D56787 /* SearchAirportConfigurator.swift */; };
+		E451B10223A15915001A1A2A /* SearchAirportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FC6239D895D00D56787 /* SearchAirportViewController.swift */; };
+		E451B10323A15915001A1A2A /* SearchAirportPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FC4239D827800D56787 /* SearchAirportPresenter.swift */; };
+		E451B10423A15915001A1A2A /* AirportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FCA239EC81200D56787 /* AirportCell.swift */; };
+		E451B10823A159CB001A1A2A /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FB0239D6A9500D56787 /* GradientView.swift */; };
+		E451B10923A159CB001A1A2A /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FB2239D6B5D00D56787 /* AutoLayout.swift */; };
+		E451B10A23A159CB001A1A2A /* InterfaceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FB4239D6CA800D56787 /* InterfaceFactory.swift */; };
+		E451B10B23A159CB001A1A2A /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FB6239D6E5400D56787 /* RoundedView.swift */; };
+		E451B10C23A159CB001A1A2A /* CustomNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41D4FB8239D6F0A00D56787 /* CustomNavViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,7 +118,6 @@
 		E41D4F57239D020A00D56787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E41D4F59239D020A00D56787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E41D4F5E239D020A00D56787 /* FlightSearchFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlightSearchFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E41D4F62239D020A00D56787 /* FlightSearchFinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchFinalTests.swift; sourceTree = "<group>"; };
 		E41D4F64239D020A00D56787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E41D4F73239D056C00D56787 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		E41D4F75239D183300D56787 /* FlightSearchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchAPI.swift; sourceTree = "<group>"; };
@@ -97,7 +126,6 @@
 		E41D4F7E239D1A9500D56787 /* LocaleSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleSettings.swift; sourceTree = "<group>"; };
 		E41D4F80239D1AB300D56787 /* PlaceListParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceListParams.swift; sourceTree = "<group>"; };
 		E41D4F82239D1ADF00D56787 /* CreateSessionParams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSessionParams.swift; sourceTree = "<group>"; };
-		E41D4F86239D277100D56787 /* FlightSearchApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchApiTests.swift; sourceTree = "<group>"; };
 		E41D4F89239D28BC00D56787 /* NetworkServiceStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceStub.swift; sourceTree = "<group>"; };
 		E41D4F8B239D2C7000D56787 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		E41D4F96239D306600D56787 /* airports.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = airports.json; sourceTree = "<group>"; };
@@ -134,6 +162,14 @@
 		E451B0D423A01FBC001A1A2A /* MOPricingOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOPricingOption.swift; sourceTree = "<group>"; };
 		E451B0D623A02A45001A1A2A /* MOPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOPlace.swift; sourceTree = "<group>"; };
 		E451B0D823A02D1F001A1A2A /* MOLeg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOLeg.swift; sourceTree = "<group>"; };
+		E451B0DC23A148D8001A1A2A /* FlightSearchApiTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightSearchApiTests.swift; sourceTree = "<group>"; };
+		E451B0DE23A14907001A1A2A /* TicketsPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsPresenterTests.swift; sourceTree = "<group>"; };
+		E451B0E023A149C1001A1A2A /* TicketsFromAPIStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsFromAPIStub.swift; sourceTree = "<group>"; };
+		E451B0E223A14A4C001A1A2A /* TicketsViewControllerStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewControllerStub.swift; sourceTree = "<group>"; };
+		E451B0F123A15450001A1A2A /* SearchPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenterTests.swift; sourceTree = "<group>"; };
+		E451B0F323A154A0001A1A2A /* SearchViewControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewControllerMock.swift; sourceTree = "<group>"; };
+		E451B0F923A15591001A1A2A /* SearchRouterStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouterStub.swift; sourceTree = "<group>"; };
+		E451B0FB23A155E3001A1A2A /* FlightSearchAPIStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchAPIStub.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,8 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				E41D4F88239D27BD00D56787 /* Helpers */,
-				E41D4F85239D274600D56787 /* Network */,
-				E41D4F62239D020A00D56787 /* FlightSearchFinalTests.swift */,
+				E41D4F85239D274600D56787 /* Tests */,
 				E41D4F64239D020A00D56787 /* Info.plist */,
 			);
 			path = FlightSearchFinalTests;
@@ -276,12 +311,14 @@
 			path = ApiParameters;
 			sourceTree = "<group>";
 		};
-		E41D4F85239D274600D56787 /* Network */ = {
+		E41D4F85239D274600D56787 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				E41D4F86239D277100D56787 /* FlightSearchApiTests.swift */,
+				E451B0DC23A148D8001A1A2A /* FlightSearchApiTests.swift */,
+				E451B0DE23A14907001A1A2A /* TicketsPresenterTests.swift */,
+				E451B0F123A15450001A1A2A /* SearchPresenterTests.swift */,
 			);
-			path = Network;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		E41D4F88239D27BD00D56787 /* Helpers */ = {
@@ -291,6 +328,11 @@
 				E41D4F96239D306600D56787 /* airports.json */,
 				E41D4F89239D28BC00D56787 /* NetworkServiceStub.swift */,
 				E41D4F8B239D2C7000D56787 /* Bundle.swift */,
+				E451B0E023A149C1001A1A2A /* TicketsFromAPIStub.swift */,
+				E451B0E223A14A4C001A1A2A /* TicketsViewControllerStub.swift */,
+				E451B0F323A154A0001A1A2A /* SearchViewControllerMock.swift */,
+				E451B0F923A15591001A1A2A /* SearchRouterStub.swift */,
+				E451B0FB23A155E3001A1A2A /* FlightSearchAPIStub.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -488,23 +530,53 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E451B0F523A154CC001A1A2A /* SearchConfigurator.swift in Sources */,
 				E41D4FAB239D521100D56787 /* Carrier.swift in Sources */,
-				E41D4F87239D277100D56787 /* FlightSearchApiTests.swift in Sources */,
+				E451B10823A159CB001A1A2A /* GradientView.swift in Sources */,
+				E451B10923A159CB001A1A2A /* AutoLayout.swift in Sources */,
+				E451B0E523A14B81001A1A2A /* CoreDataStack.swift in Sources */,
+				E451B10423A15915001A1A2A /* AirportCell.swift in Sources */,
+				E451B0EA23A14C66001A1A2A /* MOLeg.swift in Sources */,
+				E451B10123A15915001A1A2A /* SearchAirportConfigurator.swift in Sources */,
 				E41D4F92239D301B00D56787 /* Airport.swift in Sources */,
 				E41D4F8C239D2C7000D56787 /* Bundle.swift in Sources */,
+				E451B0E423A14B28001A1A2A /* TicketsService.swift in Sources */,
 				E41D4F8F239D2FF400D56787 /* FlightSearchAPI.swift in Sources */,
+				E451B0FC23A155E3001A1A2A /* FlightSearchAPIStub.swift in Sources */,
+				E451B10323A15915001A1A2A /* SearchAirportPresenter.swift in Sources */,
+				E451B0E323A14A4C001A1A2A /* TicketsViewControllerStub.swift in Sources */,
 				E41D4F93239D302800D56787 /* PlaceListParams.swift in Sources */,
-				E41D4F63239D020A00D56787 /* FlightSearchFinalTests.swift in Sources */,
+				E451B0E723A14C66001A1A2A /* MOItinerary.swift in Sources */,
+				E451B0F823A154CC001A1A2A /* SearchRouter.swift in Sources */,
+				E451B0E123A149C1001A1A2A /* TicketsFromAPIStub.swift in Sources */,
+				E451B10B23A159CB001A1A2A /* RoundedView.swift in Sources */,
 				E41D4FAF239D521600D56787 /* Itinerary.swift in Sources */,
 				E41D4FAA239D520F00D56787 /* AllEntities.swift in Sources */,
+				E451B0F223A15450001A1A2A /* SearchPresenterTests.swift in Sources */,
 				E41D4F94239D303300D56787 /* LocaleSettings.swift in Sources */,
+				E451B0EE23A14CCC001A1A2A /* TicketCell.swift in Sources */,
+				E451B0DF23A14907001A1A2A /* TicketsPresenterTests.swift in Sources */,
+				E451B0EC23A14CC9001A1A2A /* TicketsConfigurator.swift in Sources */,
+				E451B0DD23A148D8001A1A2A /* FlightSearchApiTests.swift in Sources */,
 				E41D4FAC239D521600D56787 /* Place.swift in Sources */,
 				E41D4F90239D300400D56787 /* NetworkService.swift in Sources */,
+				E451B0F723A154CC001A1A2A /* SearchPresenter.swift in Sources */,
+				E451B0F423A154A0001A1A2A /* SearchViewControllerMock.swift in Sources */,
+				E451B0E923A14C66001A1A2A /* MOPlace.swift in Sources */,
+				E451B10A23A159CB001A1A2A /* InterfaceFactory.swift in Sources */,
+				E451B0F623A154CC001A1A2A /* SearchViewController.swift in Sources */,
+				E451B0ED23A14CC9001A1A2A /* TicketsViewController.swift in Sources */,
+				E451B0FA23A15591001A1A2A /* SearchRouterStub.swift in Sources */,
 				E41D4FAE239D521600D56787 /* PricingOption.swift in Sources */,
+				E451B0EB23A14CB6001A1A2A /* TicketsPresenter.swift in Sources */,
+				E451B10C23A159CB001A1A2A /* CustomNavViewController.swift in Sources */,
 				E41D4F91239D301700D56787 /* ApiRequest.swift in Sources */,
+				E451B0E623A14B81001A1A2A /* TicketPersistence.swift in Sources */,
+				E451B0E823A14C66001A1A2A /* MOPricingOption.swift in Sources */,
 				E41D4FAD239D521600D56787 /* Leg.swift in Sources */,
 				E41D4FA9239D520C00D56787 /* ObjectWithId.swift in Sources */,
 				E41D4F8A239D28BC00D56787 /* NetworkServiceStub.swift in Sources */,
+				E451B10223A15915001A1A2A /* SearchAirportViewController.swift in Sources */,
 				E41D4F95239D303600D56787 /* CreateSessionParams.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
