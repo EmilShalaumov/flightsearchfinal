@@ -90,9 +90,23 @@ class SearchPresenter: SearchPresenterProtocol, SearchAirportPresenterDelegate {
     }
     
     private func setTitleForTicketsScene() -> String {
+        let dateFormatter: DateFormatter = {
+            let formatter = DateFormatter()
+            formatter.dateFormat = "d MMM"
+            return formatter
+        }()
+        
         let originCode = String((createSessionParams.originPlace?.placeId ?? "").dropLast(4))
         let destCode = String((createSessionParams.destinationPlace?.placeId ?? "").dropLast(4))
+        let depDate = dateFormatter.string(from: createSessionParams.outboundDate ?? Date())
         
-        return "\(originCode)-\(destCode)"
+        var title = "\(originCode)-\(destCode), \(depDate)"
+        
+        if let inboundDate = createSessionParams.inboundDate {
+            let arrDate = dateFormatter.string(from: inboundDate)
+            title += "-\(arrDate)"
+        }
+        
+        return title
     }
 }
